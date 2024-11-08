@@ -1,0 +1,1134 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    color: #ffffff;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input {
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+@font-face {
+    font-family: "Ponke";
+    src: url("../fonts/ponke.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    font-family: "Ponke";
+    font-size: 16px;
+}
+
+.cs-text-red {
+    color: #ed3b23;
+}
+
+.cs-text-white {
+    color: #ffffff;
+}
+
+.cs-text-yellow {
+    color: #122B48;
+}
+
+.cs-text-white-washed {
+    color: #95d1d2;
+}
+
+.cs-bg-red {
+    background-color: #ed3b23;
+}
+
+.cs-bg-yellow {
+    background-color: #122B48;
+}
+
+.cs-bg-dark- {
+    background-color: rgba(255, 255, 255, 0.5019607843);
+}
+
+html,
+body {
+    overflow-x: hidden;
+    background: red;
+}
+
+section {
+    overflow: hidden;
+}
+
+section .cs-inner-container {
+    position: relative;
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    z-index: 10;
+}
+
+section h2 {
+    font-size: 5.875rem;
+    text-align: center;
+    font-family: "Luckiest Guy";
+}
+
+@media (max-width: 767px) {
+    section .cs-inner-container {
+        max-width: 90%;
+    }
+
+    section h2 {
+        font-size: 3.25rem;
+    }
+}
+
+.cs-hero {
+    background: url(../images/bg.jpg) top center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #000000;
+    padding-top: 2.5rem;
+    height: calc(100vh - 52px);
+    position: relative;
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .cs-hero {
+        height: auto;
+    }
+}
+
+.twinkling {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+
+    background: transparent url(../images/twinkling.png) repeat top center;
+    z-index: 1;
+
+    -moz-animation: move-twink-back 200s linear infinite;
+    -ms-animation: move-twink-back 200s linear infinite;
+    -o-animation: move-twink-back 200s linear infinite;
+    -webkit-animation: move-twink-back 200s linear infinite;
+    animation: move-twink-back 200s linear infinite;
+}
+
+.cs-hero .cs-logo-container {
+    z-index: 1;
+    width: 15rem;
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*margin: auto;*/
+}
+.cs-hero .cs-logo-container img {
+    width: 100%;
+    height: auto;
+}
+
+.cs-hero .floating-logo-title {
+    font-size: 10vw;
+    /*margin-top: 5rem;*/
+    display: flex;
+    position: relative;
+}
+
+.cs-hero .floating-logo-title h1 {
+    position: relative;
+    z-index: 1;
+    text-shadow: -20px 15px 10px #ed3b23;
+    /*padding-top: 5rem;*/
+}
+.cs-hero .floating-logo-title h1 span {
+    position: relative;
+    z-index: 2;
+}
+
+.cs-hero .floating-logo-title .logo-anim {
+    position: static;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+    width: 15vw;
+    transform: translate(0, -15%);
+    z-index: 0;
+}
+
+.cs-hero .cs-logo-container img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    animation: strobe 0.2s ease-in-out infinite;
+}
+
+.cs-hero .cs-logo-container img:hover {
+    animation: none;
+}
+
+.cs-hero .cs-logo-container p {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .cs-hero .cs-logo-container {
+        max-width: 70%;
+    }
+
+    .cs-hero .cs-logo-container p {
+        font-size: 0.875rem;
+    }
+}
+
+.cs-social-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #000;
+    border: 4px solid #95d1d2;
+}
+
+.cs-social-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.cs-social-icon:nth-of-type(even) {
+    transform: scale(1) rotate(5deg);
+}
+
+.cs-social-icon:nth-of-type(even):hover {
+    cursor: pointer;
+    transform: scale(1.05) rotateZ(5deg);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+}
+
+.cs-social-icon:nth-of-type(odd) {
+    transform: scale(1) rotate(-5deg);
+}
+
+.cs-social-icon:nth-of-type(odd):hover {
+    cursor: pointer;
+    transform: scale(1.05) rotateZ(-5deg);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+}
+
+.cs-main-button {
+    background-color: #ed3b23;
+    color: #fff;
+    border: 4px solid #95d1d2;
+    padding: 0.75rem 1.25rem;
+    font-size: 2.25rem;
+    font-family: "Ponke";
+    text-wrap: nowrap;
+    max-height: max-content;
+}
+
+@media (max-width: 767px) {
+    .cs-main-button {
+        font-size: 1.5rem;
+    }
+}
+
+.cs-hero .cs-img-wrapper {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: end;
+}
+
+.cs-hero .cs-img-wrapper img {
+    margin-bottom: -16px;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .cs-hero .cs-img-wrapper {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+}
+
+.cs-hero .cs-hero--container {
+    margin-top: 90px;
+    height: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.cs-hero .cs-hero--container .cs-hero--content {
+    width: 100%;
+    max-width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.cs-hero .cs-hero--container .cs-hero--content h1 {
+    font-size: 1.875rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.cs-hero .cs-hero--container .cs-hero--action {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.cs-hero .cs-hero--container .cs-hero--action .cs-main-button {
+    transform: scale(1) rotateZ(5deg);
+}
+
+.cs-hero .cs-hero--container .cs-hero--action .cs-main-button:hover {
+    cursor: pointer;
+    transform: scale(1.02) rotateZ(5deg);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+}
+
+.cs-hero .cs-hero--container .cs-hero--action .cs-hero-socials {
+    display: flex;
+    gap: 16px;
+}
+
+@media (max-width: 767px) {
+    .cs-hero .cs-hero--container .cs-hero--action {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .cs-hero .cs-hero--container {
+        justify-content: center;
+    }
+
+    .cs-hero .cs-hero--container .cs-hero--content {
+        max-width: 100%;
+        gap: 48px;
+    }
+
+    .cs-hero .cs-hero--container .cs-hero--content h1 {
+        font-size: 1.25rem;
+    }
+
+    .cs-hero .cs-hero--container .cs-hero--action {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.cs-carousel {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    border: 4px solid #95d1d2;
+    display: flex;
+    align-items: center;
+}
+
+.cs-carousel--content {
+    display: flex;
+    animation: scroll 10s linear infinite;
+    background-color: #ed3b23;
+}
+
+.cs-carousel--content span {
+    padding: 4px 8px;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    white-space: nowrap;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.cs-network {
+    padding: 6rem 0;
+    background-color: #1d1d1d;
+}
+
+.cs-network .cs-main-button {
+    animation: bounce 0.5s linear infinite;
+    margin-top: 50px;
+}
+
+.cs-network h2 {
+    color: #ed3b23;
+}
+
+.cs-network p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    max-width: 700px;
+    margin-top: 2.5rem;
+}
+
+@media (max-width: 767px) {
+    .cs-network p {
+        font-size: 1.25rem;
+    }
+}
+
+.cs-network .cs-grid-subtitle {
+    color: rgba(255, 255, 255, 0.5019607843);
+    font-weight: 1.5rem;
+    max-width: 100%;
+    margin-top: 6rem;
+}
+
+.cs-network--grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem;
+    margin-top: 5rem;
+    max-width: 1200px;
+}
+
+@media (max-width: 767px) {
+    .cs-network--grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        max-width: 100%;
+    }
+}
+
+.cs-network--logo {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(255, 255, 255, 0.5019607843);
+    height: 8.125rem;
+    padding: 0.5rem 1.25rem;
+}
+
+.cs-network--logo:hover {
+    transform: scale(1.05);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+}
+
+.cs-network--logo .cs-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 1.25rem;
+}
+
+.cs-network--logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 767px) {
+    .cs-network--logo {
+        height: 6.25rem;
+    }
+
+    .cs-network--logo .cs-image-wrapper {
+        padding: 0;
+    }
+}
+
+.cs-helmet {
+    padding: 6rem 0;
+    background-color: #122B48;
+}
+
+@media (max-width: 767px) {
+    .cs-helmet {
+        padding: 4rem 0;
+    }
+}
+
+.cs-helmet--container {
+    position: relative;
+    width: 100%;
+    /*margin-top: 8rem;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cs-helmet--container .cs-helmet--gif {
+    height: auto;
+    max-width: 50%;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .cs-helmet--container .cs-helmet--gif {
+        max-width: 100%;
+    }
+}
+
+.cs-helmet--container .cs-helmet--gif img {
+    /*height: 100%;*/
+    /*width: auto;*/
+    /*object-fit: contain;*/
+    height: auto;
+    max-width: 100%;
+}
+
+.cs-helmet--container .cs-helmet--content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.cs-helmet--container .cs-helmet--content p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    .cs-helmet--container .cs-helmet--content p {
+        font-size: 1.25rem;
+    }
+}
+
+.cs-helmet--container .cs-helmet--content .cs-main-button {
+    transform: scale(1) rotateZ(3deg);
+}
+
+.cs-helmet--container .cs-helmet--content .cs-main-button:hover {
+    cursor: pointer;
+    transform: scale(1.02) rotateZ(3deg);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+}
+
+@media (max-width: 992px) {
+    .cs-helmet--container {
+        flex-direction: column;
+        /*margin-top: 3rem;*/
+    }
+
+    .cs-helmet--container .cs-helmet--gif {
+        width: 100%;
+    }
+
+    .cs-helmet--container .cs-helmet--content {
+        width: 100%;
+    }
+
+    .cs-helmet--container .cs-helmet--content p {
+        font-size: 1.25rem;
+    }
+}
+
+.cs-tokenomics {
+    background-color: #1d1d1d;
+    padding: 6rem 0;
+}
+
+.cs-tokenomics-2 {
+    background-color: #040b27;
+    padding: 6rem 0;
+}
+
+.cs-tokenomics h2 {
+    color: #95d1d2;
+}
+
+.cs-tokenomics p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    max-width: 700px;
+    margin-top: 2.5rem;
+}
+
+@media (max-width: 767px) {
+    .cs-tokenomics p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .cs-tokenomics {
+        padding: 4rem 0;
+    }
+
+    .cs-tokenomics .cs-main-button {
+        animation: none;
+        margin: 3rem 0 0 0;
+        transform: rotateZ(5deg);
+    }
+}
+
+.cs-tokenomics--content {
+    position: relative;
+    width: 100%;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cs-tokenomics--content .cs-tokenomics--image {
+    border: 4px solid #95d1d2;
+    position: relative;
+    width: 50%;
+    /*aspect-ratio: 1/1;*/
+}
+
+.cs-tokenomics--content .cs-tokenomics--image img,
+.cs-tokenomics--content .cs-tokenomics--image video {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .cs-tokenomics--content {
+        padding: 2.5rem 1.25rem 1.25rem;
+        flex-direction: column;
+    }
+
+    .cs-tokenomics--content .cs-tokenomics--image {
+        width: 100%;
+    }
+}
+
+.wenmoon-animation {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.cs-tokenomics--cards {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.cs-tokenomics--cards .rocket-anim {
+    width: 20rem;
+    max-width: 100%;
+    /*aspect-ratio: 2/1;*/
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .cs-tokenomics--cards .rocket-anim {
+        width: 20rem;
+    }
+}
+
+.cs-tokenomics--cards .cs-arrow-image {
+    width: 25rem;
+    aspect-ratio: 2/1;
+    position: relative;
+}
+
+.cs-tokenomics--cards .cs-arrow-image img,
+.cs-tokenomics--cards .cs-arrow-image video {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    animation: strobe 0.1s ease-in-out infinite;
+}
+
+.cs-tokenomics--cards .cs-card {
+    background-color: #122B48;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    border: 4px solid #95d1d2;
+}
+
+.cs-tokenomics--cards h3 {
+    font-size: 2.25rem;
+    line-height: 1.2;
+    /*color: #000;*/
+    text-align: center;
+}
+
+.cs-tokenomics--cards p {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    /*color: #000;*/
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .cs-tokenomics--cards {
+        width: 100%;
+    }
+
+    .cs-tokenomics--cards .cs-arrow-image {
+        display: none;
+    }
+
+    .cs-tokenomics--cards .cs-card {
+        background-color: #122B48;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1.25rem;
+        border: 4px solid #95d1d2;
+    }
+
+    .cs-tokenomics--cards .cs-card h3 {
+        font-size: 1.25rem;
+    }
+
+    .cs-tokenomics--cards .cs-card p {
+        font-size: 0.875rem;
+        margin-top: 0.875rem;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+}
+
+@keyframes strobe {
+    0% {
+        scale: 1;
+        transform-origin: center center;
+    }
+    100% {
+        scale: 1.02;
+        transform-origin: center center;
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+}
+
+.cs-socials--img {
+    display: flex;
+    /*position: absolute;*/
+    /*left: 0%;*/
+    /*bottom: 0px;*/
+    /*width: auto;*/
+    /*height: 100%;*/
+    /*z-index: 0;*/
+    width: 50%;
+}
+
+.cs-socials--img img {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 767px) {
+    .cs-socials--img {
+        position: relative !important;
+        left: 0px;
+        margin-top: -30px;
+    }
+}
+
+.cs-gif-bg {
+    position: relative;
+    height: 100vh;
+}
+
+.cs-gif-bg img {
+    top: 0;
+    left: 0;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+    object-fit: cover;
+}
+
+.cs-gif-bg .cs-badge {
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    transform: rotateZ(-12deg);
+    font-size: 3.75rem;
+    background-color: #122B48;
+    padding: 0.5rem 2.5rem;
+    z-index: 3;
+    border: 4px solid #95d1d2;
+}
+
+@media (max-width: 767px) {
+    .cs-gif-bg {
+        height: 50vh;
+    }
+
+    .cs-gif-bg .cs-badge {
+        top: 6rem;
+        font-size: 1.25rem;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%) rotate(-12deg);
+        display: flex;
+        justify-content: center;
+    }
+
+    .cs-gif-bg img {
+        min-width: auto;
+        min-height: 100%;
+        height: 100%;
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.cs-socials-section {
+    padding: 0;
+    background-color: #122B48;
+    position: relative;
+    display: flex;
+}
+
+.cs-socials-section h2 {
+    line-height: 1.5;
+}
+
+.cs-socials-section p {
+    font-size: 1.875rem;
+    text-align: center;
+}
+
+.cs-socials-section .cs-socials--content {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 2rem;
+    align-items: center;
+    width: 50%;
+    padding: 40px 0;
+}
+
+.cs-socials-section .cs-socials--content .cs-socials-icon-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /*margin-bottom: 50px;*/
+    gap: 2rem;
+    padding-top: 5rem;
+    top: 0;
+    z-index: 10;
+}
+
+.cs-socials-section .cs-socials--content .cs-socials-icon-container .cs-social-icon {
+    width: 5.375rem;
+    height: 5.375rem;
+}
+
+.cs-socials-section .cs-socials--content .cs-socials--contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23.4375rem;
+    height: 18.75rem;
+    margin-top: 9rem;
+}
+
+.cs-socials-section .cs-socials--content .cs-socials--contact .cs-logo-container {
+    max-width: 18.75rem;
+}
+
+.cs-socials-section .cs-socials--content .cs-socials--contact .cs-logo-container img {
+    width: 100%;
+    height: auto;
+}
+
+.cs-socials-section .cs-socials--content .cs-socials--contact .cs-logo-container p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.cs-socials-section .cs-socials--content .cs-socials--contact .cs-main-button {
+    transform: scale(1) rotateZ(-10deg);
+    animation: strobe 0.1s ease-in-out infinite;
+}
+
+.cs-socials-section .cs-socials--content .cs-socials--contact .cs-main-button:hover {
+    cursor: pointer;
+    transform: scale(1.07) rotateZ(-10deg);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+}
+
+@media (max-width: 767px) {
+    .cs-socials-section {
+        flex-direction: column-reverse;
+        /*padding: 4rem 0;*/
+        /*padding-bottom: 0;*/
+    }
+
+    .cs-socials-section p {
+        font-size: 1.25rem;
+    }
+
+    .cs-socials-section .cs-socials--content {
+        width: 100%;
+    }
+
+    .cs-socials-section .cs-socials--content .cs-socials-icon-container {
+        padding: 3rem 0;
+    }
+
+    .cs-socials-section .cs-socials--content .cs-socials-icon-container .cs-social-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .cs-socials-section .cs-socials--img {
+        /*position: absolute;*/
+        width: 100%;
+        /*order: 3;*/
+        /*bottom: 0;*/
+    }
+
+    .cs-socials-section .cs-socials--content .cs-socials--img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .cs-socials-section .cs-socials--content .cs-socials--contact {
+        order: 2;
+        width: 100%;
+        height: auto;
+        margin-top: 9rem;
+        padding-bottom: 14rem;
+    }
+
+    .cs-socials-section .cs-socials--content .cs-socials--contact .cs-logo-container {
+        display: none;
+    }
+
+    .cs-socials-section .cs-socials--content .cs-socials--contact .cs-main-button {
+        transform: scale(1) rotateZ(10deg);
+        animation: strobe 0.1s ease-in-out infinite;
+        margin: 3rem auto;
+        max-width: 18.75rem;
+    }
+
+    .cs-socials-section .cs-socials--content .cs-socials--contact .cs-main-button:hover {
+        cursor: pointer;
+        transform: scale(1.07) rotateZ(-10deg);
+        transition: cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+    }
+}
+
+/*# sourceMappingURL=main.css.map */
+
+.strobe-animation {
+    animation: strobe 0.1s ease-in-out infinite;
+}
+
+.border-0 {
+    border: 0 !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+@keyframes move-twink-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
+}
+
+@-webkit-keyframes move-twink-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
+}
+
+@-moz-keyframes move-twink-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
+}
+
+@-ms-keyframes move-twink-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
+}
+
+/* Keyframes for the rotation */
+@keyframes slowShake {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    33% {
+        transform: rotate(5deg) scale(1.05);
+    }
+    50% {
+        transform: rotate(0deg) scale(1);
+    }
+    66% {
+        transform: rotate(-5deg) scale(1.05);
+    }
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+}
