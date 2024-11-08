@@ -38,7 +38,7 @@
 
                 <div class="cs-hero--action">
                     <div class="button-wrap">
-                        <a href="https://dextools.io"
+                        <a href="https://dextools.com"
                            target="_blank"
                            class="cs-main-button"
                            data-aos="zoom-in"
