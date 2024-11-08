@@ -773,7 +773,7 @@ h2 {
   }
 }
 .ba-area h2 {
-  text-align: center;
+  /*text-align: center;*/
   font-family: "SweetiePotato", sans-serif;
   font-size: 90px;
   font-weight: 400;
