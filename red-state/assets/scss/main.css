@@ -1179,6 +1179,7 @@ h2 {
 
 .topnav .by-btn {
   font-size: inherit;
+  padding-top: 5px;
 }
 
 .topnav .by-btn:hover {
@@ -1190,10 +1191,22 @@ h2 {
     justify-content: space-between;
     background-color: #333;
   }
-  .topnav li:not(:first-child) {display: none;}
+  .topnav li {
+  }
+  .topnav li:not(:first-child) {
+    display: none;
+  }
   .topnav .menu-icon {
     float: right;
     display: block !important;
+  }
+  .topnav .by-btn {
+    /*padding-left: 5px;*/
+    /*padding-right: 5px;*/
+    width: 100%;
+  }
+  #header nav ul li:not(:last-child) {
+    margin-right: 0;
   }
 }
 
