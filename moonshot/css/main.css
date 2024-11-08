@@ -422,6 +422,7 @@ section h2 {
 @media (max-width: 767px) {
     .cs-hero .cs-hero--container {
         justify-content: center;
+        margin-top: 3rem;
     }
 
     .cs-hero .cs-hero--container .cs-hero--content {
