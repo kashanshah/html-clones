@@ -962,7 +962,7 @@ h2 {
 }
 
 #header {
-  padding: 2rem 6rem 15px;
+  padding: 2rem 0 15px;
   /*background: #ff2e3f;*/
 }
 @media (max-width: 575px) {
@@ -1149,7 +1149,7 @@ h2 {
 .topnav {
   overflow: hidden;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .topnav a {
@@ -1175,6 +1175,14 @@ h2 {
 .topnav .menu-icon {
   display: none;
   margin-right: 0;
+}
+
+.topnav .by-btn {
+  font-size: inherit;
+}
+
+.topnav .by-btn:hover {
+  color: white;
 }
 
 @media screen and (max-width: 600px) {
