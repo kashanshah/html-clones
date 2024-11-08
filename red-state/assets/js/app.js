@@ -24,3 +24,7 @@ $('.t-slider').slick({
     },
   ]
 });
+
+if(typeof AOS !== 'undefined') {
+  AOS.init();
+}
