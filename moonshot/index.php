@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css?v=9" />
+    <link rel="stylesheet" href="./css/main.css?v=11" />
     <script src="js/main.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
@@ -35,35 +35,38 @@
                 <h1 class="cs-text-white" data-aos="zoom-in" data-aos-delay="100">
                     <span class="cs-text-red">$MOONSHOT</span> is your ticket to lunar riches—no PVP, just the thrill of liftoff!
                 </h1>
+
                 <div class="cs-hero--action">
-                    <a href="https://dexscreener.com/tron/TLEoEmSpdHX2XQfJKqg1szY3YM7Adjhe19"
-                       target="_blank"
-                       class="cs-main-button"
-                       data-aos="zoom-in"
-                       data-aos-delay="200"
-                    >
-                        BUY $MOONSHOT
-                    </a>
+                    <div class="button-wrap">
+                        <a href="https://dextools.io"
+                           target="_blank"
+                           class="cs-main-button"
+                           data-aos="zoom-in"
+                           data-aos-delay="200"
+                        >
+                            BUY $MOONSHOT
+                        </a>
+                        <p class="wallet-ca" data-aos="zoom-in" data-aos-delay="400">ca : 000000000000000000</p>
+                    </div>
                     <div
                         class="cs-hero-socials"
                         data-aos="zoom-in"
                         data-aos-delay="300"
                     >
-                        <a class="cs-social-icon" href="https://x.com/moonshot" target="_blank">
+                        <a class="cs-social-icon" href="https://x.com/wenmoonshotSOL" target="_blank">
                             <img src="./images/x.png" alt=""/>
                         </a>
                         <a href="https://t.me/moonshotportal" target="_blank" class="cs-social-icon">
                             <img src="./images/telegram.png" alt=""/>
                         </a>
-                        <a href="https://t.me/moonshotportal" target="_blank" class="cs-social-icon">
-                            <img src="./images/telegram.png" alt=""/>
+                        <a href="https://dexscreener.com" target="_blank" class="cs-social-icon">
+                            <img src="./images/dexscreen.png" alt=""/>
                         </a>
-                        <a href="https://t.me/moonshotportal" target="_blank" class="cs-social-icon">
-                            <img src="./images/telegram.png" alt=""/>
+                        <a href="https://birdeye.so/" target="_blank" class="cs-social-icon">
+                            <img src="./images/birdseye.png" alt=""/>
                         </a>
 
                     </div>
-                    <p data-aos="zoom-in" data-aos-delay="400">ca : 000000000000000000</p>
                 </div>
 
 
@@ -118,8 +121,8 @@
                 data-aos="zoom-in"
                 data-aos-delay="100"
             >
-                <p>BUCKLE UP! <span class="cs-text-red">$MOONSHOOT</span> is ready to defy gravity and soar past competition. $Moonshoot is primed for a meteoric rise.</p>
-                <a href="https://t.me/moonshotportal" target="_blank" class="cs-main-button">Click me, quick!</a>
+                <p>BUCKLE UP! <span class="cs-text-red">$MOONSHOOT</span> is ready to defy gravity and soar past the competition. $Moonshoot is primed for a meteoric rise.</p>
+                <a href="https://dextools.io" target="_blank" class="cs-main-button">Click me, quick!</a>
             </div>
         </div>
     </div>
@@ -133,8 +136,8 @@
         <p data-aos="zoom-in" data-aos-delay="100">
             Zero resistance, all momentum. Join the $Moonshot journey and ride the $SOL rocket with us
         </p>
-        <a class="cs-text-red" style="margin-top:20px" href="https://www.dextools.io/app/en/tron/pair-explorer/TCfcnrCxZapK8wZ4msbSZJ2UwAYvztQQSu?t=1724246614211">
-            https://www.dextools.io/app/en/tron/pair-explorer/TCfcnrCxZapK8wZ4msbSZJ2UwAYvztQQSu?t=1724246614211
+        <a class="cs-text-red" style="margin-top:20px" href="http://dexscreener.com/">
+            http://dexscreener.com/
         </a>
         <div
                 class="cs-tokenomics--image"
@@ -158,7 +161,7 @@
                 </div>
                 <div class="cs-card" data-aos="zoom-in" data-aos-delay="200">
                     <h3>TOKEN ADDRESS</h3>
-                    <p>TLEoEmSpdHX2XQfJKqg1szY3YM7Adjhe19</p>
+                    <p>000000000000</p>
                 </div>
             </div>
             <div
@@ -186,7 +189,7 @@
 
         <style>#dexscreener-embed{position:relative;width:100%;padding-bottom:125%;}@media(min-width:1400px){#dexscreener-embed{padding-bottom:65%;}}#dexscreener-embed iframe{position:absolute;width:100%;height:100%;top:0;left:0;border:0;}</style><div id="dexscreener-embed"><iframe src="https://dexscreener.com/tron/tcfcnrcxzapk8wz4msbszj2uwayvztqqsu?embed=1&theme=dark&trades=0&info=0"></iframe></div>
 
-        <a href="https://www.dextools.io/app/en/tron/pair-explorer/TCfcnrCxZapK8wZ4msbSZJ2UwAYvztQQSu?t=1724246614211" target="_blank" class="cs-main-button" data-aos="zoom-in" data-aos-delay="100">
+        <a href="https://dextools.io" target="_blank" class="cs-main-button" data-aos="zoom-in" data-aos-delay="100">
             BUY MOONSHOT HERE
         </a>
 
@@ -247,25 +250,18 @@
             <p data-aos="zoom-in" data-aos-delay="100">JOIN THE <span class="cs-text-red">$MOONSHOT</span> COMmUNITY</p>
 
             <div class="cs-socials-icon-container">
-                <a class="cs-social-icon" href="https://x.com/moonshot"
-                ><img src="./images/x.png" alt=""
-                    /></a>
-                <a class="cs-social-icon" href="https://t.me/moonshotportal" target="_blank"
-                ><img src="./images/telegram.png" alt=""
-                    /></a>
-
-
-                <!--
-                 <div
-                   class="cs-socials--contact"
-                   data-aos="zoom-in"
-                   data-aos-delay="100"
-                 >
-                   <button class="cs-main-button">CLICK TO APE IN</button>
-                   <div class="cs-logo-container">
-                     <img src="./images/logo-text-black.webp" alt="" />
-                   </div>
-                 </div>-->
+                <a class="cs-social-icon" href="https://x.com/wenmoonshotSOL" target="_blank">
+                    <img src="./images/x.png" alt=""/>
+                </a>
+                <a href="https://t.me/moonshotportal" target="_blank" class="cs-social-icon">
+                    <img src="./images/telegram.png" alt=""/>
+                </a>
+                <a href="https://dexscreener.com" target="_blank" class="cs-social-icon">
+                    <img src="./images/dexscreen.png" alt=""/>
+                </a>
+                <a href="https://birdeye.so/" target="_blank" class="cs-social-icon">
+                    <img src="./images/birdseye.png" alt=""/>
+                </a>
             </div>
         </div>
     </div>

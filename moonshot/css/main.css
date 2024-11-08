@@ -384,11 +384,11 @@ section h2 {
     display: flex;
     flex-direction: column;
     gap: 48px;
+    text-align: center;
 }
 
 .cs-hero .cs-hero--container .cs-hero--content h1 {
     font-size: 1.875rem;
-    text-align: center;
     line-height: 1.5;
 }
 
@@ -399,8 +399,27 @@ section h2 {
     gap: 48px;
 }
 
-.cs-hero .cs-hero--container .cs-hero--action .cs-main-button {
+.cs-hero .cs-hero--container .cs-hero--action .button-wrap {
+    position: relative;
+    padding-bottom: 1rem;
     transform: scale(1) rotateZ(5deg);
+    margin: 8px 0 30px 0;
+}
+
+.cs-hero .cs-hero--container .cs-hero--action .button-wrap .wallet-ca {
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: calc( 100% + 16px );
+    /*text-align: center;*/
+}
+
+.cs-hero .cs-hero--container .cs-hero--action .cs-main-button {
+}
+.cs-hero .cs-hero--container .cs-hero--action .cs-main-button + .wallet-ca {
+    /*transform: scale(1) rotateZ(5deg);*/
 }
 
 .cs-hero .cs-hero--container .cs-hero--action .cs-main-button:hover {
