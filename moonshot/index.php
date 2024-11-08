@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css?v=7" />
+    <link rel="stylesheet" href="./css/main.css?v=9" />
     <script src="js/main.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
@@ -11,6 +11,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
     <link rel="manifest" href="./images/favicon/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Luckiest+Guy&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <title>moonshot</title>
@@ -48,15 +49,30 @@
                         data-aos="zoom-in"
                         data-aos-delay="300"
                     >
-                        <a class="cs-social-icon" href="https://x.com/moonshot" target="_blank"
-                        ><img src="./images/x.png" alt=""
-                            /></a>
-                        <a href="https://t.me/moonshotportal" target="_blank" class="cs-social-icon"
-                        ><img src="./images/telegram.png" alt=""
-                            /></a>
+                        <a class="cs-social-icon" href="https://x.com/moonshot" target="_blank">
+                            <img src="./images/x.png" alt=""/>
+                        </a>
+                        <a href="https://t.me/moonshotportal" target="_blank" class="cs-social-icon">
+                            <img src="./images/telegram.png" alt=""/>
+                        </a>
+                        <a href="https://t.me/moonshotportal" target="_blank" class="cs-social-icon">
+                            <img src="./images/telegram.png" alt=""/>
+                        </a>
+                        <a href="https://t.me/moonshotportal" target="_blank" class="cs-social-icon">
+                            <img src="./images/telegram.png" alt=""/>
+                        </a>
 
                     </div>
+                    <p data-aos="zoom-in" data-aos-delay="400">ca : 000000000000000000</p>
                 </div>
+
+
+<!--                <div id="walletCode" class="wallet-code">-->
+<!--                    <input id="link" value="" readonly>-->
+<!--                    <button id="copy">-->
+<!--                        <i class="fas fa-file-clipboard"></i>-->
+<!--                    </button>-->
+<!--                </div>-->
             </div>
         </div>
         <div class="cs-img-wrapper" data-aos="slide-up">
@@ -102,7 +118,7 @@
                 data-aos="zoom-in"
                 data-aos-delay="100"
             >
-                <p>BUCKLE UP! <span class="cs-text-red">$MOONSHOOT</span> is ready to defy gravity and saar past competition. $Moonshoot is primed for a meteoric rise.</p>
+                <p>BUCKLE UP! <span class="cs-text-red">$MOONSHOOT</span> is ready to defy gravity and soar past competition. $Moonshoot is primed for a meteoric rise.</p>
                 <a href="https://t.me/moonshotportal" target="_blank" class="cs-main-button">Click me, quick!</a>
             </div>
         </div>
@@ -259,6 +275,45 @@
     AOS.init({
         offset: 120, // offset (in px) from the original trigger point
     });
+
+    // functionality to copy text from inviteCode to clipboard
+
+    // trigger copy event on click
+    document.getElementById('copy').addEventListener('click', function(event) {
+        console.log(event);
+        copyToClipboard(event);
+    });
+
+    // event handler
+    function copyToClipboard(e) {
+        // alert('this function was triggered');
+        // find target element
+        var
+            t = e.target,
+            c = '#link',
+            inp = (c ? document.querySelector(c) : null);
+        console.log(inp);
+        // check if input element exist and if it's selectable
+        if (inp && inp.select) {
+            // select text
+            inp.select();
+            try {
+                // copy text
+                document.execCommand('copy');
+                inp.blur();
+
+                // copied animation
+                t.classList.add('copied');
+                setTimeout(function() {
+                    t.classList.remove('copied');
+                }, 1500);
+            } catch (err) {
+                //fallback in case exexCommand doesnt work
+                alert('please press Ctrl/Cmd+C to copy');
+            }
+
+        }
+    }
 </script>
 </body>
 </html>
