@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+    <title>Web Design Studio - WLT Design</title>
+    <meta name="description" content="WLT Design is a web design studio committed to creating exceptional online experiences that empower brands to elevate their digital presence. Let's connect and explore the possibilities of working together.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="WLT Design | Web Design Studio">
+    <meta property="og:description" content="WLT Design is a web design studio committed to creating exceptional online experiences that empower brands to elevate their digital presence. Let's connect and explore the possibilities of working together.">
+    <meta property="og:url" content="https://wlt.design/">
+    <meta property="og:site_name" content="WLT Design">
+    <meta property="og:image" content="https://wlt.design/img/featured-social-image.jpg">
+    <link rel="icon" type="image/x-icon" href="https://wlt.design/img/favicon.png">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.5/dist/ScrollTrigger.min.js"></script>
+    <script src="./lenis.min.js"></script>
+    <script src="./vanilla-tilt.min.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.159.0/build/three.module.js",
+                "three/": "https://unpkg.com/three@0.159.0/"
+            }
+        }
+    </script>
+    <script src="CurDot.min.js"></script>
+    <script src="script.min.js?version=20" type="module"></script>
+    <script type="x-shader/x-vertex" id="vertexshader">
+        varying vec2 vUv;
+        void main() {
+            vUv = uv;
+            gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
+        }
+    </script>
+    <script type="x-shader/x-fragment" id="fragmentshader">
+        uniform sampler2D baseTexture;
+        uniform sampler2D bloomTexture;
+        varying vec2 vUv;
+        void main() {
+            gl_FragColor = (texture2D( baseTexture, vUv ) + vec4( 1.0 ) * texture2D( bloomTexture, vUv ) );
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/pace-theme-default.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css?version=31"></link>
+    <link rel="stylesheet" href="https://use.typekit.net/mqu3bsc.css">
+</head>
+<body oncontextmenu="return false;">
+<header>
+    <div class="logo-wrapper">
+        <img src="./img/logo.svg" alt="WLT Design">
+        <div class="logo-wrapper-pseudo"></div>
+    </div>
+    <div class="menu-wrapper">
+        <div class="menu-toggle menu-title">Menu</div>
+        <a class="menu-child" data-menu="#home" href="#" aria-label="Home">Home</a>
+        <a class="menu-child" data-menu="#services" href="#" aria-label="Services">Services</a>
+        <a class="menu-child" data-menu="#portfolios" href="#" aria-label="Portfolios">Portfolios</a>
+        <a class="menu-child" data-menu="#contact" href="#" aria-label="Contact">Contact</a>
+        <div class="menu-toggle menu-burger"><div class="menu-burger-line"></div></div>
+        <div class="menu-wrapper-pseudo"></div>
+    </div>
+</header>
+<div id="home" class="main-container">
+    <div id="preloader" class="preloader">
+        <div class="preloader-logo"><img src="./img/logo-white.svg" alt="WLT Design"></div>
+        <h2 class="preloader-title-1">Loading</h2>
+        <h2 class="preloader-title-2">Launching 3D</h2>
+    </div>
+    <div id="scene">
+        <div id="scene-inner">
+            <div class="scene-content">
+                <div class="scene-content-inner">
+                    <h1 class="scene-content-child scene-content-1 animate" id="scene-content-1-h2"><span class="font-orange">Hi, we are WLT Design</span><span class="split-text"><span>Elevate Your</span><span>Digital Presence</span></span></h1>
+                    <p class="scene-content-child scene-content-1 animate" id="scene-content-1-p">We make great digital experiences. Scroll to find out how we do it.</p>
+                    <h2 class="scene-content-child scene-content-2 animate" id="scene-content-2-h2"><span class="split-text"><span>A Glimpse Into</span><span>Who We Are</span></span></h2>
+                    <p class="scene-content-child scene-content-2 animate" id="scene-content-2-p">We are a small agile team committed to creating exceptional online experiences that empower brands to elevate their digital presence.</p>
+                    <h2 class="scene-content-child scene-content-3 animate" id="scene-content-3-h2"><span class="split-text"><span>Bringing Vibrancy</span><span>To Your Identity</span></span></h2>
+                    <p class="scene-content-child scene-content-3 animate" id="scene-content-3-p">By deeply understanding your products and services, we bring them to life, infusing vibrancy and a distinct presence that sets them apart in a crowded market.</p>
+                    <h2 class="scene-content-child scene-content-4 animate" id="scene-content-4-h2"><span class="split-text"><span>Crafting Great</span><span>Brand Narrative</span></span></h2>
+                    <p class="scene-content-child scene-content-4 animate" id="scene-content-4-p">We create unique experiences that not only communicate your identity but also forge an emotional bond with your audience, creating a narrative that resonates and endures.</p>
+                </div>
+            </div>
+            <div class="scene-content-mobile">
+                <p class="scene-content-mobile-child scene-content-mobile-2" id="scene-content-mobile-2-p">We are a small agile team committed to creating exceptional online experiences that empower brands to elevate their digital presence.</p>
+                <p class="scene-content-mobile-child scene-content-mobile-3" id="scene-content-mobile-3-p">By deeply understanding your products and services, we bring them to life, infusing vibrancy and a distinct presence that sets them apart in a crowded market.</p>
+                <p class="scene-content-mobile-child scene-content-mobile-4" id="scene-content-mobile-4-p">We create unique experiences that not only communicate your identity but also forge an emotional bond with your audience, creating a narrative that resonates and endures.</p>
+            </div>
+        </div>
+    </div>
+    <div class="services-wrapper" id="services_wrapper">
+        <div id="services" class="services-inner-container">
+            <div class="services-mobile-title"><span>Our Services</span></div>
+            <div class="services-inner-pos">
+                <div class="services-inner-wrapper">
+                    <h2>Services</h2>
+                    <div class="services-items-wrapper">
+                        <div>
+                            <h4>Website Design & Development</h4>
+                            <p>From design to development, we provide a thorough service, covering everything from initial creation to going live and beyond.</p>
+                        </div>
+                        <div>
+                            <h4>3D Interactive Web Design</h4>
+                            <p>We create interactive 3D interactive website that captivate your audience, providing a unique and memorable way to convey your message.</p>
+                        </div>
+                        <div>
+                            <h4>Ecommerce Web Development</h4>
+                            <p>Our ecommerce web development focuses on creating seamless and enjoyable shopping experiences, from browsing to checkout.</p>
+                        </div>
+                        <div>
+                            <h4>Branding & Graphic Design</h4>
+                            <p>We take a strategic approach to branding, developing a cohesive and enduring brand identity that resonates with your audience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services-bg-cover"></div>
+    </div>
+    <div class="products-wrapper">
+        <div class="products-title"><h2 class="products-title-h2"><span class="products-title-span-outer products-title-span-outer-1"><span>Visualize Your</span></span><span class="products-title-span-outer products-title-span-outer-2"><span>Brand Identity</span></span></h2></div>
+        <div class="products-end-title"><div class="products-end-title-inner"><h2 class="products-title-h2">Extraordinary</h2></div></div>
+        <div id="scene_product"></div>
+        <div class="product-captions">
+            <p class="product-captions-1">We transform your brand identity into a tangible and <span>interactive experience.</span></p>
+            <p class="product-captions-2">Making it an immersive experience that breathes life <span>into your brand.</span></p>
+            <p class="product-captions-3">Allowing you to showcase the intricate details of your products and making <span>your brand identity..</span></p>
+        </div>
+    </div>
+    <div id="portfolios" class="portfolios-wrapper">
+        <div class="portfolios-scrolling-title-wrapper">
+            <h2 class="portfolios-scrolling-title">Portfolios <span></span> Portfolios <span></span> Portfolios <span></span> Portfolios <span></span> Portfolios <span></span> Portfolios <span></span> </h2>
+            <h2 class="portfolios-scrolling-title">Portfolios <span></span> Portfolios <span></span> Portfolios <span></span> Portfolios <span></span> Portfolios <span></span> Portfolios <span></span> </h2>
+        </div>
+        <div class="portfolios-container">
+            <div class="portfolios-container-child portfolio-1">
+                <div class="portfolios-image">
+                    <a href="#" class="portfolios-btn" aria-label="WLT Design 2022"><div class="portfolios-image-inner"><img src="./img/portfolios/portfolio-wlt-1.webp" alt="WLT Design 2022"></div></a>
+                </div>
+                <div class="portfolios-title">
+                    <a href="#" class="portfolios-btn" aria-label="WLT Design 2022"><h4>WLT Design 2022</h4></a>
+                    <h5 class="portfolios-cat"><span>Website Development</span> <span class="span-dot"></span> <span>3D interactive</span></h5>
+                </div>
+            </div>
+            <div class="portfolios-container-child portfolio-2">
+                <div class="portfolios-image">
+                    <a href="#" class="portfolios-btn" aria-label="Bike Bear"><div class="portfolios-image-inner"><img src="./img/portfolios/portfolio-bb-1.webp" alt="Bike Bear"></div></a>
+                </div>
+                <div class="portfolios-title">
+                    <a href="#" class="portfolios-btn" aria-label="Bike Bear"><h4>Bike Bear</h4></a>
+                    <h5 class="portfolios-cat"><span>3D interactive</span></h5>
+                </div>
+            </div>
+            <div class="portfolios-container-child portfolio-3">
+                <div class="portfolios-image">
+                    <a href="#" class="portfolios-btn" aria-label="Parallel World"><div class="portfolios-image-inner"><img src="./img/portfolios/portfolio-pw-1.webp" alt="Parallel World"></div></a>
+                </div>
+                <div class="portfolios-title">
+                    <a href="#" class="portfolios-btn" aria-label="Parallel World"><h4>Parallel World</h4></a>
+                    <h5 class="portfolios-cat"><span>Website Development</span> <span class="span-dot"></span> <span>3D interactive</span></h5>
+                </div>
+            </div>
+            <div class="portfolios-container-child portfolio-4">
+                <div class="portfolios-image">
+                    <a href="#" class="portfolios-btn" aria-label="i-smile"><div class="portfolios-image-inner"><img src="./img/portfolios/portfolio-ismile-1.webp" alt="i-smile"></div></a>
+                </div>
+                <div class="portfolios-title">
+                    <a href="#" class="portfolios-btn" aria-label="i-smile"><h4>i-smile</h4></a>
+                    <h5 class="portfolios-cat"><span>Website Development</span></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolios-popup" data-lenis-prevent>
+        <div class="portfolios-popup-inner">
+            <div class="portfolio-item portfolio-1">
+                <div class="portfolios-item-image"></div>
+                <div class="portfolios-item-content">
+                    <div class="portfolios-item-content-left"></div>
+                    <div class="portfolios-item-content-right"></div>
+                </div>
+                <div class="portfolios-item-gallery">
+                    <div class="portfolios-item-gallery-left"></div>
+                    <div class="portfolios-item-gallery-right"></div>
+                </div>
+            </div>
+            <div class="portfolio-item portfolio-2">
+                <div class="portfolios-item-image"></div>
+                <div class="portfolios-item-content">
+                    <div class="portfolios-item-content-left"></div>
+                    <div class="portfolios-item-content-right"></div>
+                </div>
+                <div class="portfolios-item-gallery">
+                    <div class="portfolios-item-gallery-left"></div>
+                    <div class="portfolios-item-gallery-right"></div>
+                </div>
+            </div>
+            <div class="portfolio-item portfolio-3">
+                <div class="portfolios-item-image"></div>
+                <div class="portfolios-item-content">
+                    <div class="portfolios-item-content-left"></div>
+                    <div class="portfolios-item-content-right"></div>
+                </div>
+                <div class="portfolios-item-gallery">
+                    <div class="portfolios-item-gallery-left"></div>
+                    <div class="portfolios-item-gallery-right"></div>
+                </div>
+            </div>
+            <div class="portfolio-item portfolio-4">
+                <div class="portfolios-item-image"></div>
+                <div class="portfolios-item-content">
+                    <div class="portfolios-item-content-left"></div>
+                    <div class="portfolios-item-content-right"></div>
+                </div>
+                <div class="portfolios-item-gallery">
+                    <div class="portfolios-item-gallery-left"></div>
+                    <div class="portfolios-item-gallery-right"></div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolios-popup-close">
+            <a href='#'>Close</a>
+        </div>
+    </div>
+    <div class="portfolios-popup-bg"></div>
+
+    <div id="contact" class="contact-wrapper">
+        <div class="contact-wrapper-inner">
+            <div class="contact-wrapper-left">
+                <div class="contact-wrapper-left-top">
+                    <h3>Let's Work Together</h3>
+                    <h4><a href="/cdn-cgi/l/email-protection#066e636a6a6946716a72286263756f6168" aria-label="Email"><span class="__cf_email__" data-cfemail="e088858c8c8fa0978c94ce84859389878e">[email&#160;protected]</span></a></h4>
+                </div>
+                <div class="contact-wrapper-left-bottom">
+                    <video id="video_contact" src="./img/contact.mp4" playsinline muted loop autoplay></video>
+                </div>
+            </div>
+            <div class="contact-wrapper-right">
+                <p id="form_result">Message has been sent successfully</p>
+                <form id="contact_form" action="form.php" method="post">
+                    <label for="form_name">Name</label>
+                    <input type="text" id="form_name" name="name" autocomplete="on" required>
+                    <input type="text" name="email" autocomplete="off" style="display: none;">
+                    <label for="form_mail">Email</label>
+                    <input type="email" id="form_mail" name="mail" required>
+                    <div class="form-split">
+                        <div class="form-split-left">
+                            <label for="form_contact">Contact Number</label>
+                            <input type="number" id="form_contact" name="contact"  required>
+                        </div>
+                        <div class="form-split-right">
+                            <label for="form_website">Website (optional)</label>
+                            <input type="text" id="form_website" name="website" >
+                        </div>
+                    </div>
+                    <label for="form_message">Message</label>
+                    <textarea id="form_message" name="message" required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="contact-wrapper-bottom">
+                <div class="contact-wrapper-bottom-inner">
+                    <div class="contact-wrapper-bottom-btn"><a href="https://www.facebook.com/wlt.design/" target="_blank" aria-label="Facebook"><img src="./img/facebook-logo.svg" alt="Facebook"></a></div>
+                    <div class="contact-wrapper-bottom-btn"><a href="https://www.instagram.com/wlt.design/" target="_blank" aria-label="Instagram"><img src="./img/instagram-logo.svg" alt="Instagram"></a></div>
+                    <div class="contact-wrapper-bottom-btn"><a href="https://twitter.com/wlt_design/" target="_blank" aria-label="Twitter"><img src="./img/twitter-logo.svg" alt="Twitter"></a></div>
+                    <div class="contact-wrapper-bottom-btn"><a href="https://www.linkedin.com/company/wltdesign/" target="_blank" aria-label="Linkedin"><img src="./img/linkedin-logo.svg" alt="Linkedin"></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-wrapper">
+            <p>© 2024 WLT Design (202203098106) | All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <div class="menu-transition"></div>
+    <div class="menu-mobile">
+        <div class="menu-mobile-close"><a class="menu-mobile-close-btn" href='#' onclick="event.preventDefault()"><img src="./img/close.svg" alt="Close"></a></div>
+        <div class="menu-mobile-wrapper">
+            <div class="menu-mobile-wrapper-inner">
+                <a class="menu-child mobile-menu-child" data-menu="#home" href='#'>Home</a>
+                <a class="menu-child mobile-menu-child" data-menu="#services" href='#'>Services</a>
+                <a class="menu-child mobile-menu-child" data-menu="#portfolios" href='#'>Portfolios</a>
+                <a class="menu-child mobile-menu-child" data-menu="#contact" href='#'>Contact</a>
+            </div>
+        </div>
+        <div class="menu-mobile-social">
+            <div class="menu-mobile-social-btn"><a href="https://www.facebook.com/wlt.design/" target="_blank" aria-label="Facebook"><img src="./img/facebook-logo.svg" alt="Facebook"></a></div>
+            <div class="menu-mobile-social-btn"><a href="https://www.instagram.com/wlt.design/" target="_blank" aria-label="Instagram"><img src="./img/instagram-logo.svg" alt="Instagram"></a></div>
+            <div class="menu-mobile-social-btn"><a href="https://twitter.com/wlt_design/" target="_blank" aria-label="Twitter"><img src="./img/twitter-logo.svg" alt="Twitter"></a></div>
+            <div class="menu-mobile-social-btn"><a href="https://www.linkedin.com/company/wltdesign/" target="_blank" aria-label="Linkedin"><img src="./img/linkedin-logo.svg" alt="Linkedin"></a></div>
+        </div>
+    </div>
+
+    <div class="room-videos-wrapper">
+        <video id="video_desktop" src="./img/desktop-video.mp4" muted loop></video>
+        <video id="video_mobile" src="./img/mobile-video.mp4" muted loop></video>
+    </div>
+</div>
+</body>
+</html>

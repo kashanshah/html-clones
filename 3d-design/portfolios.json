@@ -1,0 +1,64 @@
+[
+    {
+        "content": 
+        {
+            "type": "video",
+            "video": "./img/portfolios/portfolio-wlt-video.mp4",
+            "title": "WLT Design 2022",
+            "category": "Website Development<hr>3D Interactive", 
+            "description": "In the 2022 version of the WLT Design website, our aim was to illustrate the immersive capabilities of a website built using 3D technology. With this vision in mind, we crafted a 3D scene that enables users to navigate through outer space, while utilizing animations to effectively convey a storytelling experience.",
+            "link": "https://2022.wlt.design/"
+        },
+        "gallery": 
+        {
+            "gallery1": "./img/portfolios/portfolio-wlt-2.webp",
+            "gallery2": "./img/portfolios/portfolio-wlt-3.webp"
+        }
+    },
+    {
+        "content": 
+        {
+            "type": "video",
+            "video": "./img/portfolios/portfolio-bb-video.mp4",
+            "title": "Bike Bear",
+            "category": "3D Interactive", 
+            "description": "'Dare To Do', to accurately present the energy of Bike Bear, we are required to make something unexpected and distinct from other websites. With the model of their bear mascot provided, we crafted an experience that feels like stepping into a different dimension and presenting the mascot in a tone and environment that mirrors their energy, all while seamlessly integrating with the other sections of their website." 
+        },
+        "gallery": 
+        {
+            "gallery1": "./img/portfolios/portfolio-bb-2.webp",
+            "gallery2": "./img/portfolios/portfolio-bb-3.webp"
+        }
+    },
+    {
+        "content": 
+        {
+            "type": "img",
+            "image": "./img/portfolios/portfolio-pw-1.webp",
+            "title": "Parallel World",
+            "category": "Website Development<hr>3D Interactive", 
+            "description": "In order to allow audiences to experience the Parallel World, we built a 3D scene that showcases an earth and city made up of in-game elements from the Parallel World universe. The concept is to replicate the scene as precisely as possible to the in-game design, allowing users to immerse themselves and get a feel for the gaming experience. When users scroll through the website, they can find out more about Parallel World while navigating around the city."
+        },
+        "gallery": 
+        {
+            "gallery1": "./img/portfolios/portfolio-pw-2.webp",
+            "gallery2": "./img/portfolios/portfolio-pw-3.webp"
+        }
+    },
+    {
+        "content": 
+        {
+            "type": "img",
+            "image": "./img/portfolios/portfolio-ismile-1.webp",
+            "title": "i-smile",
+            "category": "Website Development", 
+            "description": "i-smile is a dental clinic that offers a wide range of dental treatments. We designed the website to introduce the company, showcase their treatments, and inform audiences about how they can receive assistance. Additionally, we've incorporated an intuitive call to action to gather information on patients' dental conditions, using a user friendly step-by-step form.",
+            "link": "https://www.ismiledental.my/"
+        },
+        "gallery": 
+        {
+            "gallery1": "./img/portfolios/portfolio-ismile-2.webp",
+            "gallery2": "./img/portfolios/portfolio-ismile-3.webp"
+        }
+    }
+]
