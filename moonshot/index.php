@@ -23,9 +23,9 @@
     <div class="twinkling"></div>
     <div class="cs-inner-container">
         <div class="cs-logo-container" data-aos="zoom-in">
-<!--            <img src="./images/logo.png" alt="" />-->
+            <img src="./images/logo.png" alt="" />
         </div>
-        <img src="./images/cartoon-xolo.gif" alt="$MOONSHOOT" class="logo-anim" />
+<!--        <img src="./images/cartoon-xolo.gif" alt="$MOONSHOOT" class="logo-anim" />-->
         <div class="floating-logo-title">
             <h1>MOONSHOT</h1>
         </div>
