@@ -231,7 +231,7 @@ section h2 {
 
 .cs-hero .cs-logo-container {
     z-index: 1;
-    width: 15rem;
+    width: 14rem;
     /*position: absolute;*/
     /*left: 0;*/
     /*right: 0;*/
@@ -243,7 +243,7 @@ section h2 {
 }
 
 .cs-hero .floating-logo-title {
-    font-size: 10vw;
+    font-size: 7vw;
     margin-top: 15rem;
     display: flex;
     position: relative;
