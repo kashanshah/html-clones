@@ -38,7 +38,7 @@
 
                 <div class="cs-hero--action">
                     <div class="button-wrap">
-                        <a href="https://dextools.com"
+                        <a href="https://dexscreener.com/solana/5fhbveaby7mlgq1fkjqpjpbs4zhus2n5yv5lpxngmiub"
                            target="_blank"
                            class="cs-main-button"
                            data-aos="zoom-in"
@@ -46,7 +46,7 @@
                         >
                             BUY $MOONSHOT
                         </a>
-                        <p class="wallet-ca" data-aos="zoom-in" data-aos-delay="400">ca : 000000000000000000</p>
+                        <p class="wallet-ca" data-aos="zoom-in" data-aos-delay="400">ca : 5fhbveaby7mlgq1fkjqpjpbs4zhus2n5yv5lpxngmiub</p>
                     </div>
                     <div
                         class="cs-hero-socials"
@@ -56,10 +56,10 @@
                         <a class="cs-social-icon" href="https://x.com/wenmoonshotSOL" target="_blank">
                             <img src="./images/x.png" alt=""/>
                         </a>
-                        <a href="https://t.me/moonshotportal" target="_blank" class="cs-social-icon">
+                        <a href="https://t.me/wenmoonshotsol" target="_blank" class="cs-social-icon">
                             <img src="./images/telegram.png" alt=""/>
                         </a>
-                        <a href="https://dexscreener.com" target="_blank" class="cs-social-icon">
+                        <a href="https://dexscreener.com/solana/5fhbveaby7mlgq1fkjqpjpbs4zhus2n5yv5lpxngmiub" target="_blank" class="cs-social-icon">
                             <img src="./images/dexscreen.png" alt=""/>
                         </a>
                         <a href="https://birdeye.so/" target="_blank" class="cs-social-icon">
@@ -122,7 +122,7 @@
                 data-aos-delay="100"
             >
                 <p>BUCKLE UP! <span class="cs-text-red">$MOONSHOOT</span> is ready to defy gravity and soar past the competition. $Moonshoot is primed for a meteoric rise.</p>
-                <a href="https://dextools.io" target="_blank" class="cs-main-button">Click me, quick!</a>
+                <a href="https://dexscreener.com/solana/5fhbveaby7mlgq1fkjqpjpbs4zhus2n5yv5lpxngmiub" target="_blank" class="cs-main-button">Click me, quick!</a>
             </div>
         </div>
     </div>
@@ -136,8 +136,8 @@
         <p data-aos="zoom-in" data-aos-delay="100">
             Zero resistance, all momentum. Join the $Moonshot journey and ride the $SOL rocket with us
         </p>
-        <a class="cs-text-red" style="margin-top:20px" href="http://dexscreener.com/">
-            http://dexscreener.com/
+        <a class="cs-text-red" style="margin-top:20px" href="https://dexscreener.com/solana/5fhbveaby7mlgq1fkjqpjpbs4zhus2n5yv5lpxngmiub" target="_blank">
+            https://dexscreener.com/solana/5fhbveaby7mlgq1fkjqpjpbs4zhus2n5yv5lpxngmiub
         </a>
         <div
                 class="cs-tokenomics--image"
@@ -161,7 +161,7 @@
                 </div>
                 <div class="cs-card" data-aos="zoom-in" data-aos-delay="200">
                     <h3>TOKEN ADDRESS</h3>
-                    <p>000000000000</p>
+                    <p>5fhbveaby7mlgq1fkjqpjpbs4zhus2n5yv5lpxngmiub</p>
                 </div>
             </div>
             <div
@@ -189,7 +189,7 @@
 
         <style>#dexscreener-embed{position:relative;width:100%;padding-bottom:125%;}@media(min-width:1400px){#dexscreener-embed{padding-bottom:65%;}}#dexscreener-embed iframe{position:absolute;width:100%;height:100%;top:0;left:0;border:0;}</style><div id="dexscreener-embed"><iframe src="https://dexscreener.com/tron/tcfcnrcxzapk8wz4msbszj2uwayvztqqsu?embed=1&theme=dark&trades=0&info=0"></iframe></div>
 
-        <a href="https://dextools.io" target="_blank" class="cs-main-button" data-aos="zoom-in" data-aos-delay="100">
+        <a href="https://dexscreener.com/solana/5fhbveaby7mlgq1fkjqpjpbs4zhus2n5yv5lpxngmiub" target="_blank" class="cs-main-button" data-aos="zoom-in" data-aos-delay="100">
             BUY MOONSHOT HERE
         </a>
 
@@ -253,10 +253,10 @@
                 <a class="cs-social-icon" href="https://x.com/wenmoonshotSOL" target="_blank">
                     <img src="./images/x.png" alt=""/>
                 </a>
-                <a href="https://t.me/moonshotportal" target="_blank" class="cs-social-icon">
+                <a href="https://t.me/wenmoonshotsol" target="_blank" class="cs-social-icon">
                     <img src="./images/telegram.png" alt=""/>
                 </a>
-                <a href="https://dexscreener.com" target="_blank" class="cs-social-icon">
+                <a href="https://dexscreener.com/solana/5fhbveaby7mlgq1fkjqpjpbs4zhus2n5yv5lpxngmiub" target="_blank" class="cs-social-icon">
                     <img src="./images/dexscreen.png" alt=""/>
                 </a>
                 <a href="https://birdeye.so/" target="_blank" class="cs-social-icon">
