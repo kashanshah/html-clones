@@ -1238,6 +1238,14 @@ a:hover {
     overflow: hidden;
 }
 
+.home-top h1 {
+    text-shadow: 0 0 30px #ff00ff;
+}
+
+.scrambled-text {
+    text-wrap: nowrap;
+}
+
 @media (min-width: 640px) {
     .home-top {
         height: 500px;
