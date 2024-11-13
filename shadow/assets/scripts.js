@@ -69,12 +69,16 @@ elements.forEach(el => {
         el.getAttribute('data-text')
     ];
     const fx = new TextScramble(el);
+    setTimeout(() => {
+        fx.setText(phrases[0]);
+    }, 1000);
+    // fx.setText(phrases[counter]);
 
     let counter = 0;
     const next = () => {
-        fx.setText(phrases[counter]).then(() => {
-            setTimeout(next, 800);
-        });
+        // fx.setText(phrases[counter]).then(() => {
+        //     setTimeout(next, 800);
+        // });
         counter = (counter + 1) % phrases.length;
     };
 
