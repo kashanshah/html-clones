@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee+Shade");
+
 @font-face {
     font-family: GT Walsheim;
     src: url(hinted-subset-GTWalsheimMedium4ff3.woff2?v=70815292190077839511606242982) format("woff2"), url(hinted-subset-GTWalsheimMedium39a5.woff?v=105474726204430630071606242981) format("woff");
@@ -131,8 +133,15 @@ img, svg {
     display: block;
     width: 12px;
     height: 12px;
-    background: #444;
-    margin-right: 7px
+    margin-right: 7px;
+    background: #ff00ff;
+    box-shadow:
+            0 0 5px #ff00ff, /* First layer of glow */
+            0 0 10px #ff00ff, /* Slightly larger glow */
+            0 0 15px #ff00ff, /* Increase size for depth */
+            0 0 20px #ff00ff, /* Repeat with a slightly faded color */
+            0 0 25px #ff00ff,
+            0 0 35px #ff00ff;
 }
 
 .fancy-divider .circle {
@@ -143,7 +152,14 @@ img, svg {
     content: "";
     display: block;
     height: 2px;
-    background: #444;
+    background: #ff00ff;
+    box-shadow:
+            0 0 5px #ff00ff, /* First layer of glow */
+            0 0 10px #ff00ff, /* Slightly larger glow */
+            0 0 15px #ff00ff, /* Increase size for depth */
+            0 0 20px #ff00ff, /* Repeat with a slightly faded color */
+            0 0 25px #ff00ff,
+            0 0 35px #ff00ff;
     flex: 1
 }
 
@@ -306,6 +322,22 @@ img, svg {
     .rte h3 {
         font-size: 22px
     }
+}
+
+.bg-black {
+    background: black !important;
+}
+
+.bg-black-50 {
+    background: rgba(0,0,0,0.5) !important;
+}
+
+.bg-black-75 {
+    background: rgba(0,0,0,0.75) !important;
+}
+
+.bg-purple {
+    background: #230034 !important;
 }
 
 .rte ul li {
@@ -494,7 +526,7 @@ a:hover {
 }
 
 #product .header {
-    position: relative
+    position: relative;
 }
 
 #product .home-top-video {
@@ -884,8 +916,15 @@ a:hover {
 }
 
 .announcements {
-    background: #0c1e27;
-    padding: 20px 0;
+    background: #ff00ff;
+    box-shadow:
+            0 0 5px #ff00ff, /* First layer of glow */
+            0 0 10px #ff00ff, /* Slightly larger glow */
+            0 0 15px #ff00ff, /* Increase size for depth */
+            0 0 20px #ff00ff, /* Repeat with a slightly faded color */
+            0 0 25px #ff00ff,
+            0 0 35px #ff00ff;
+    padding: 8px 0;
     transition: 10s transform
 }
 
@@ -898,11 +937,11 @@ a:hover {
 }
 
 .announcements p {
-    color: #fff;
-    font-family: GT Walsheim, sans-serif;
+    color: #0000CC;
+    /*font-family: GT Walsheim, sans-serif;*/
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 14px
+    font-size: 20px
 }
 
 @media (min-width: 500px) {
@@ -917,16 +956,29 @@ a:hover {
     }
 }
 
+.announcements p a {
+    color: inherit;
+}
+
 .announcements-close {
     position: absolute;
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    transition: .2s opacity
+    transition: .2s opacity;
+    color: #0000CC;
 }
 
 .announcements-close:hover {
     opacity: .7
+}
+
+.home-what {
+    padding: 120px 0;
+}
+
+.home-what .mt-5 {
+    margin-top: 30px;
 }
 
 .header {
@@ -950,9 +1002,12 @@ a:hover {
     display: inline-block;
     width: 150px;
     margin: 0;
-    border: 10px solid #d580ff;
     color: #fff;
     background: #000;
+}
+
+.header .logo-img {
+
 }
 
 .header .logo h1 {
@@ -978,6 +1033,10 @@ a:hover {
 .footer {
     background: #0c1e27;
     padding: 100px 0
+}
+
+.footer .footer-logo {
+    max-width: 200px;
 }
 
 .footer #mce-responses {
@@ -1146,28 +1205,31 @@ a:hover {
 
 .home-top {
     text-align: left;
-    height: 400px;
+    height: 500px;
     display: flex;
     align-items: flex-end;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
 }
 
 @media (min-width: 640px) {
     .home-top {
-        height: 500px
+        height: 500px;
+        padding-bottom: 120px
     }
 }
 
 @media (min-width: 820px) {
     .home-top {
-        height: 770px;
-        text-align: center
+        height: 800px;
+        min-height: 90vh;
+        text-align: center;
+        padding-bottom: 135px
     }
 }
 
 .home-top:after {
-    content: "";
+    /*content: "";*/
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1192,51 +1254,69 @@ a:hover {
 }
 
 .home-top-video {
-    position: absolute;
+    position: fixed;
+    z-index: -2;
     top: 0;
     left: 0;
-    width: 124%
+    bottom: auto;
+    width: 124%;
 }
 
 @media (min-width: 820px) {
     .home-top-video {
-        width: 100%
+        width: 100%;
+        min-width: 100%;
+        min-height: 100%;
+        left: 50%;
+        top: auto;
+        bottom: 0;
+        transform: translate(-50%, 0);
+        object-fit: cover;
     }
 }
 
 .home-top-video:after {
-    content: "";
+    /*content: "";*/
     position: absolute;
     width: 100%;
     height: 100%;
     bottom: 0;
     left: 0;
-    background: linear-gradient(transparent, transparent, #000)
+    /*background: linear-gradient(transparent, transparent, #000)*/
 }
 
 .home-top-video video {
-    width: 100%
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover; /* Ensures the video scales properly */
 }
 
 .home-intro {
-    margin: 80px 0;
     padding: 60px 0;
     background: url("../files/221837.gif") no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
+}
+
+.home-intro:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25);
+
 }
 
 @media (min-width: 1000px) {
     .home-intro {
-        margin: 150px 0;
-        padding: 150px 0;
+        padding: 50vh 0;
     }
 }
 
 @media (min-width: 1100px) {
-    .home-intro {
-        margin: 185px 0
-    }
 }
 
 .home-intro p {
@@ -1315,18 +1395,18 @@ a:hover {
 }
 
 .home-how {
-    margin: 80px 0
+    padding: 80px 0
 }
 
 @media (min-width: 1000px) {
     .home-how {
-        margin: 150px 0
+        padding: 150px 0
     }
 }
 
 @media (min-width: 1100px) {
     .home-how {
-        margin: 185px 0
+        padding: 185px 0
     }
 }
 
@@ -1337,11 +1417,15 @@ a:hover {
     }
 }
 
+.home-how-main img {
+    width: 100%;
+}
+
 @media (min-width: 1000px) {
     .home-how-main {
         order: 2;
         flex: 1;
-        max-width: 640px;
+        max-width: 50%;
         margin-left: auto
     }
 }
@@ -1364,53 +1448,70 @@ a:hover {
 
 @media (min-width: 1000px) {
     .home-how-steps {
-        width: 40%;
-        margin-right: 40px
+        width: 100%;
+        /*margin-right: 40px*/
     }
 }
 
 .home-how-step {
-    display: flex;
+    /*display: flex;*/
     position: relative;
-    align-items: center;
-    margin-top: 60px
+    /*align-items: flex-start;*/
+    padding-top: 30px;
+    margin-top: 0;
+    padding-bottom: 90px;
 }
 
 @media (min-width: 1000px) {
     .home-how-step {
-        margin-top: 0
+        margin-top: 0;
+        padding-top: 0;
     }
 }
 
 .home-how-step + .home-how-step {
-    margin-top: 105px
+    padding-bottom: 55px;
 }
 
-.home-how-step + .home-how-step .icon-wrap:before {
+.home-how-step:before {
     content: "";
     position: absolute;
-    bottom: 100%;
-    left: 50%;
+    top: 0;
+    left: 60px;
     display: block;
     width: 1px;
-    height: 90px;
+    height: 100%;
     background: #d580ff
 }
 
+.home-how-step:last-child:before {
+    display: none;
+}
+
 .home-how-step .icon-wrap {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.home-how-step .icon-wrap .icon {
     border: 1px solid #d580ff;
     border-radius: 50%;
-    position: relative
+    position: relative;
+    z-index: 1;
+    background: #000000;
 }
 
 .home-how-step .icon {
     padding: 13px;
-    border-radius: 50%
+    border-radius: 50%;
+    height: 120px;
+    aspect-ratio: 1;
 }
 
-.home-how-step .icon svg {
-    width: 60px;
-    height: 60px
+.home-how-step .icon svg,
+.home-how-step .icon img {
+    width: 100%;
+    height: 100%
 }
 
 @media (min-width: 640px) {
@@ -1420,9 +1521,13 @@ a:hover {
     }
 }
 
+.home-how-step.row {
+    /*gap: 40px;*/
+}
 .home-how-step .text {
     flex: 1;
-    margin-left: 40px
+    margin-top: 16px;
+    margin-left: 100px
 }
 
 .home-how-step h3 {
@@ -1818,34 +1923,55 @@ input[type=email]::placeholder {
     padding: 80px 0 40px
 }
 
+.home-photo-grid .fancy-divider {
+    display: none;
+}
+
 @media (min-width: 1000px) {
     .home-photo-grid {
         padding: 120px 0 40px
     }
+    .home-photo-grid .d-md-flex {
+        display: flex;
+        position: relative;
+        gap: 40px;
+    }
+    .home-photo-grid .d-md-flex .fancy-divider {
+        display: flex;
+        position: absolute;
+        top: 30px;
+        width: 300px;
+        max-width: 100%;
+    }
 }
 
 .home-photo-grid-header {
-    padding: 60px 0
+    padding: 60px 0;
+    position: relative;
+    height: auto;
 }
 
 @media (min-width: 1000px) {
     .home-photo-grid-header {
-        padding: 80px 0
+        padding: 80px 0;
+        position: relative;
+        height: auto;
     }
 }
 
 .home-photo-grid-header p {
     line-height: 1.68;
     color: #fff;
-    text-align: center;
-    font-size: 24px
+    text-align: left;
+    font-size: 24px;
 }
 
 @media (min-width: 1000px) {
     .home-photo-grid-header p {
         font-size: 34px;
-        max-width: 800px;
-        margin: 0 auto
+        max-width: 900px;
+        margin: 0 auto;
+        margin-top: 80px;
     }
 }
 
@@ -1902,7 +2028,7 @@ pre.hacking-screen {
     font-family: "Courier New", Courier, monospace; /* Monospace font */
     font-size: 16px;
     padding: 20px;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     overflow: auto;              /* Scroll for overflow */
     white-space: pre-wrap;       /* Wrap long lines */
     box-shadow: 0 0 10px rgba(179, 0, 255, 0.7); /* Purple glowing effect */
@@ -1917,4 +2043,97 @@ pre.hacking-screen {
 
 pre.hacking-screen span.flicker {
     animation: flicker 0.15s infinite;
+}
+
+.neon-border {
+    border: 2px solid #ff00ff; /* Pink/purple base color for the border */
+    padding: 10px;
+    /*border-radius: 8px; !* Optional rounded corners *!*/
+    color: #ffffff; /* Text color to stand out against the neon effect */
+    background-color: #111; /* Dark background to enhance the glow effect */
+
+    /* Neon glow effect */
+    box-shadow:
+            0 0 5px #ff00ff, /* First layer of glow */
+            0 0 10px #ff00ff, /* Slightly larger glow */
+            0 0 15px #ff00ff, /* Increase size for depth */
+            0 0 20px #ff00ff, /* Repeat with a slightly faded color */
+            0 0 25px #ff00ff,
+            0 0 35px #ff00ff;
+}
+
+/* Optional: hover effect for a brighter neon */
+.neon-border:hover {
+    box-shadow:
+            0 0 10px #ff00ff,
+            0 0 20px #ff00ff,
+            0 0 30px #ff00ff,
+            0 0 40px #ff00ff,
+            0 0 50px #ff00ff,
+            0 0 75px #ff00ff;
+}
+
+
+
+
+.glitch-text {
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 3px 3px 0px rgb(255, 0, 0), -3px 3px 0px rgb(0, 255, 0),
+    3px -3px 0px rgb(0, 0, 255);
+    animation: rgb-glitch 500ms ease infinite alternate;
+}
+@keyframes rgb-glitch {
+    0% {
+        color: rgba(255, 255, 255, 0.5);
+        text-shadow: 13px 3px 0px rgb(255, 0, 0), -3px 3px 0px rgb(0, 255, 0);
+    }
+    20% {
+        text-shadow: 13px 3px 0px rgb(0, 255, 0), -3px 3px 0px rgb(0, 0, 255),
+        3px -3px 0px rgb(255, 0, 0);
+    }
+    22% {
+        text-shadow: 3px 3px 0px rgb(0, 255, 0), -3px 3px 0px rgb(0, 0, 255),
+        3px -3px 0px rgb(255, 0, 0);
+    }
+    25% {
+        text-shadow: 3px 3px 0px rgb(0, 255, 0), -3px 3px 0px rgb(0, 0, 255),
+        3px -3px 0px rgb(255, 0, 0);
+    }
+    60% {
+        text-shadow: 4px 2px 0px rgb(0, 255, 0), -3px 3px 0px rgb(0, 0, 255),
+        3px -3px 0px rgb(255, 0, 0);
+    }
+    65% {
+        text-shadow: 4px 2px 0px rgb(0, 255, 0), -3px 13px 0px rgb(0, 0, 255),
+        13px -3px 0px rgb(255, 0, 0);
+    }
+    67% {
+        color: rgba(255, 255, 255, 1);
+        text-shadow: 4px 2px 0px rgb(0, 255, 0), -3px 13px 0px rgb(0, 0, 255),
+        3px -3px 0px rgb(255, 0, 0);
+    }
+    90% {
+        text-shadow: 3px 3px 0px rgb(0, 0, 255), -3px 3px 0px rgb(255, 0, 0),
+        3px -3px 0px rgb(0, 255, 0);
+    }
+    92% {
+        text-shadow: 0px 0px 0px none;
+    }
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 992px) {
+    .col-md-3 {
+        flex: 0 0 auto;
+        /*width: 25%;*/
+    }
+    .col-md-9 {
+        flex: 0 0 auto;
+        width: 75%;
+    }
 }

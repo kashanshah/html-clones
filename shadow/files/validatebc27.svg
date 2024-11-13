@@ -2,7 +2,7 @@
   <defs>
     <linearGradient id="validate-a" x1="12.843%" x2="90.647%" y1="79.883%" y2="11.884%">
       <stop offset="0%" stop-color="#0F2525"/>
-      <stop offset="100%" stop-color="#0A1A29"/>
+      <stop offset="100%" stop-color="#0F2525"/>
     </linearGradient>
   </defs>
   <g fill="none" fill-rule="evenodd">
