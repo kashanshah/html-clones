@@ -134,14 +134,14 @@ img, svg {
     width: 12px;
     height: 12px;
     margin-right: 7px;
-    background: #ff00ff;
+    background: #d580ff;
     box-shadow:
-            0 0 5px #ff00ff, /* First layer of glow */
-            0 0 10px #ff00ff, /* Slightly larger glow */
-            0 0 15px #ff00ff, /* Increase size for depth */
-            0 0 20px #ff00ff, /* Repeat with a slightly faded color */
-            0 0 25px #ff00ff,
-            0 0 35px #ff00ff;
+            0 0 5px #d580ff, /* First layer of glow */
+            0 0 10px #d580ff, /* Slightly larger glow */
+            0 0 15px #d580ff, /* Increase size for depth */
+            0 0 20px #d580ff, /* Repeat with a slightly faded color */
+            0 0 25px #d580ff,
+            0 0 35px #d580ff;
 }
 
 .fancy-divider .circle {
@@ -152,14 +152,14 @@ img, svg {
     content: "";
     display: block;
     height: 2px;
-    background: #ff00ff;
+    background: #d580ff;
     box-shadow:
-            0 0 5px #ff00ff, /* First layer of glow */
-            0 0 10px #ff00ff, /* Slightly larger glow */
-            0 0 15px #ff00ff, /* Increase size for depth */
-            0 0 20px #ff00ff, /* Repeat with a slightly faded color */
-            0 0 25px #ff00ff,
-            0 0 35px #ff00ff;
+            0 0 5px #d580ff, /* First layer of glow */
+            0 0 10px #d580ff, /* Slightly larger glow */
+            0 0 15px #d580ff, /* Increase size for depth */
+            0 0 20px #d580ff, /* Repeat with a slightly faded color */
+            0 0 25px #d580ff,
+            0 0 35px #d580ff;
     flex: 1
 }
 
@@ -198,8 +198,8 @@ img, svg {
 .button, .shopify-challenge__button {
     display: inline-flex;
     align-items: center;
-    background: #ff00ff;
-    border: 1px solid #ff00ff;
+    background: #d580ff;
+    border: 1px solid #d580ff;
     color: #101010;
     padding: 3px 28px 0;
     line-height: 52px;
@@ -227,15 +227,15 @@ img, svg {
 }
 
 .button:disabled.loading, .button.disabled.loading, .shopify-challenge__button:disabled.loading, .shopify-challenge__button.disabled.loading {
-    background: #ff00ff;
-    border-color: #ff00ff;
+    background: #d580ff;
+    border-color: #d580ff;
     opacity: .7;
     cursor: default
 }
 
 .button:disabled.loading:hover, .button.disabled.loading:hover, .shopify-challenge__button:disabled.loading:hover, .shopify-challenge__button.disabled.loading:hover {
-    background: #ff00ff;
-    border-color: #ff00ff;
+    background: #d580ff;
+    border-color: #d580ff;
     cursor: default
 }
 
@@ -251,7 +251,7 @@ img, svg {
 }
 
 .button.line-green, .shopify-challenge__button.line-green {
-    color: #ff00ff
+    color: #d580ff
 }
 
 .button.full, .shopify-challenge__button.full {
@@ -367,11 +367,11 @@ img, svg {
 
 .rte blockquote {
     padding-left: 28px;
-    border-left: 3px solid #ff00ff
+    border-left: 3px solid #d580ff
 }
 
 a {
-    color: #ff00ff
+    color: #d580ff
 }
 
 a:hover {
@@ -392,7 +392,7 @@ a:hover {
 
 #lockdrop .page-wrap .rte .toggles label, #lockdrop-beta .page-wrap .rte .toggles label {
     flex: 0 100%;
-    border: 1px solid #ff00ff;
+    border: 1px solid #d580ff;
     border-width: 1px;
     font-size: 16px;
     text-align: center;
@@ -413,12 +413,12 @@ a:hover {
 #lockdrop .page-wrap input[type=radio], #lockdrop-beta .page-wrap input[type=radio] {
     padding: 6px;
     margin-right: 10px;
-    border: 1px solid #ff00ff
+    border: 1px solid #d580ff
 }
 
 #lockdrop .page-wrap input[type=text], #lockdrop-beta .page-wrap input[type=text] {
     line-height: 56px;
-    border: 1px solid #ff00ff;
+    border: 1px solid #d580ff;
     padding: 0 25px;
     color: #fff;
     margin: 20px 0;
@@ -426,7 +426,7 @@ a:hover {
 }
 
 #lockdrop .page-wrap input[type=radio]:checked, #lockdrop-beta .page-wrap input[type=radio]:checked {
-    background: #ff00ff
+    background: #d580ff
 }
 
 #lockdrop .page-wrap .home-reserve-product, #lockdrop-beta .page-wrap .home-reserve-product {
@@ -478,7 +478,7 @@ a:hover {
     width: 100%;
     bottom: 0;
     left: 0;
-    background: #ff00ff;
+    background: #d580ff;
     z-index: 1;
     color: #000;
     font-size: 16px
@@ -591,7 +591,7 @@ a:hover {
 
 #product input[type=text] {
     line-height: 56px;
-    border: 1px solid #ff00ff;
+    border: 1px solid #d580ff;
     padding: 0 25px;
     color: #fff;
     margin: 20px 0;
@@ -702,7 +702,7 @@ a:hover {
 }
 
 .kong-4-kong-top p strong {
-    color: #ff00ff
+    color: #d580ff
 }
 
 .kong-4-kong-wallet {
@@ -717,7 +717,7 @@ a:hover {
 }
 
 .kong-4-kong-wallet p a {
-    color: #ff00ff
+    color: #d580ff
 }
 
 .kong-4-kong-wallet .wallet {
@@ -784,7 +784,7 @@ a:hover {
 }
 
 .kong-4-kong-wallet .wallet .connected:hover {
-    color: #ff00ff;
+    color: #d580ff;
     text-decoration: none
 }
 
@@ -795,7 +795,7 @@ a:hover {
 
 .kong-4-kong-wallet input {
     height: 56px;
-    border: solid 1px #ff00ff;
+    border: solid 1px #d580ff;
     padding: 0 24px;
     flex: 1;
     margin-right: 16px;
@@ -898,7 +898,7 @@ a:hover {
 }
 
 .kong-4-kong-notes-selector li.active, .kong-4-kong-notes-selector li:hover {
-    border: 1px solid #ff00ff
+    border: 1px solid #d580ff
 }
 
 .kong-4-kong-fine {
@@ -916,14 +916,14 @@ a:hover {
 }
 
 .announcements {
-    background: #ff00ff;
+    background: #d580ff;
     box-shadow:
-            0 0 5px #ff00ff, /* First layer of glow */
-            0 0 10px #ff00ff, /* Slightly larger glow */
-            0 0 15px #ff00ff, /* Increase size for depth */
-            0 0 20px #ff00ff, /* Repeat with a slightly faded color */
-            0 0 25px #ff00ff,
-            0 0 35px #ff00ff;
+            0 0 5px #d580ff, /* First layer of glow */
+            0 0 10px #d580ff, /* Slightly larger glow */
+            0 0 15px #d580ff, /* Increase size for depth */
+            0 0 20px #d580ff, /* Repeat with a slightly faded color */
+            0 0 25px #d580ff,
+            0 0 35px #d580ff;
     padding: 8px 0;
     transition: 10s transform
 }
@@ -994,7 +994,7 @@ a:hover {
 
 @media (min-width: 1000px) {
     .header {
-        padding: 54px 0
+        padding: 120px 0 0
     }
 }
 
@@ -1038,7 +1038,7 @@ a:hover {
 
 .header .logo h1 {
     color: inherit;
-    /*text-shadow: 0 0 30px #ff00ff;*/
+    /*text-shadow: 0 0 30px #d580ff;*/
 }
 
 @media (min-width: 820px) {
@@ -1148,7 +1148,7 @@ a:hover {
 
 .footer input {
     line-height: 56px;
-    border: 1px solid #ff00ff;
+    border: 1px solid #d580ff;
     padding: 0 25px 3px;
     flex: 1;
     margin-right: 14px;
@@ -1192,7 +1192,7 @@ a:hover {
 
 @media (min-width: 820px) {
     .home-wrap h1, .home-wrap h2 {
-        font-size: 96px
+        font-size: 76px
     }
 }
 
@@ -1239,7 +1239,7 @@ a:hover {
 }
 
 .home-top h1 {
-    text-shadow: 0 0 30px #ff00ff;
+    /*text-shadow: 0 0 30px #d580ff;*/
 }
 
 .scrambled-text {
@@ -1525,7 +1525,7 @@ a:hover {
     display: block;
     width: 1px;
     height: 100%;
-    background: #ff00ff
+    background: #d580ff
 }
 
 .home-how-step:last-child:before {
@@ -1538,7 +1538,7 @@ a:hover {
     align-items: center;
 }
 .home-how-step .icon-wrap .icon {
-    border: 1px solid #ff00ff;
+    border: 1px solid #d580ff;
     border-radius: 50%;
     position: relative;
     z-index: 1;
@@ -1636,7 +1636,7 @@ a:hover {
 
 .home-reserve-header input {
     line-height: 56px;
-    border: 1px solid #ff00ff;
+    border: 1px solid #d580ff;
     padding: 0 25px 3px;
     flex: 1;
     margin-right: 14px;
@@ -1906,7 +1906,7 @@ a:hover {
 
 input[type=email] {
     line-height: 56px;
-    border: 1px solid #ff00ff;
+    border: 1px solid #d580ff;
     padding: 0 25px 3px;
     flex: 1;
     margin-right: 14px;
@@ -2020,7 +2020,7 @@ input[type=email]::placeholder {
 }
 
 .home-photo-grid-header strong {
-    color: #ff00ff;
+    color: #d580ff;
     font-weight: 400
 }
 
@@ -2068,7 +2068,7 @@ input[type=email]::placeholder {
 
 pre.hacking-screen {
     background-color: #000000;   /* Black background */
-    color: #ff00ff;              /* Neon purple text */
+    color: #d580ff;              /* Neon purple text */
     font-family: "Courier New", Courier, monospace; /* Monospace font */
     font-size: 16px;
     padding: 20px;
@@ -2090,7 +2090,7 @@ pre.hacking-screen span.flicker {
 }
 
 .neon-border {
-    border: 2px solid #ff00ff; /* Pink/purple base color for the border */
+    border: 2px solid #d580ff; /* Pink/purple base color for the border */
     padding: 10px;
     /*border-radius: 8px; !* Optional rounded corners *!*/
     color: #ffffff; /* Text color to stand out against the neon effect */
@@ -2098,23 +2098,23 @@ pre.hacking-screen span.flicker {
 
     /* Neon glow effect */
     box-shadow:
-            0 0 5px #ff00ff, /* First layer of glow */
-            0 0 10px #ff00ff, /* Slightly larger glow */
-            0 0 15px #ff00ff, /* Increase size for depth */
-            0 0 20px #ff00ff, /* Repeat with a slightly faded color */
-            0 0 25px #ff00ff,
-            0 0 35px #ff00ff;
+            0 0 5px #d580ff, /* First layer of glow */
+            0 0 10px #d580ff, /* Slightly larger glow */
+            0 0 15px #d580ff, /* Increase size for depth */
+            0 0 20px #d580ff, /* Repeat with a slightly faded color */
+            0 0 25px #d580ff,
+            0 0 35px #d580ff;
 }
 
 /* Optional: hover effect for a brighter neon */
 .neon-border:hover {
     box-shadow:
-            0 0 10px #ff00ff,
-            0 0 20px #ff00ff,
-            0 0 30px #ff00ff,
-            0 0 40px #ff00ff,
-            0 0 50px #ff00ff,
-            0 0 75px #ff00ff;
+            0 0 10px #d580ff,
+            0 0 20px #d580ff,
+            0 0 30px #d580ff,
+            0 0 40px #d580ff,
+            0 0 50px #d580ff,
+            0 0 75px #d580ff;
 }
 
 
