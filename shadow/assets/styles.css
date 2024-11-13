@@ -198,8 +198,8 @@ img, svg {
 .button, .shopify-challenge__button {
     display: inline-flex;
     align-items: center;
-    background: #d580ff;
-    border: 1px solid #d580ff;
+    background: #ff00ff;
+    border: 1px solid #ff00ff;
     color: #101010;
     padding: 3px 28px 0;
     line-height: 52px;
@@ -227,15 +227,15 @@ img, svg {
 }
 
 .button:disabled.loading, .button.disabled.loading, .shopify-challenge__button:disabled.loading, .shopify-challenge__button.disabled.loading {
-    background: #d580ff;
-    border-color: #d580ff;
+    background: #ff00ff;
+    border-color: #ff00ff;
     opacity: .7;
     cursor: default
 }
 
 .button:disabled.loading:hover, .button.disabled.loading:hover, .shopify-challenge__button:disabled.loading:hover, .shopify-challenge__button.disabled.loading:hover {
-    background: #d580ff;
-    border-color: #d580ff;
+    background: #ff00ff;
+    border-color: #ff00ff;
     cursor: default
 }
 
@@ -251,7 +251,7 @@ img, svg {
 }
 
 .button.line-green, .shopify-challenge__button.line-green {
-    color: #d580ff
+    color: #ff00ff
 }
 
 .button.full, .shopify-challenge__button.full {
@@ -367,11 +367,11 @@ img, svg {
 
 .rte blockquote {
     padding-left: 28px;
-    border-left: 3px solid #d580ff
+    border-left: 3px solid #ff00ff
 }
 
 a {
-    color: #d580ff
+    color: #ff00ff
 }
 
 a:hover {
@@ -392,7 +392,7 @@ a:hover {
 
 #lockdrop .page-wrap .rte .toggles label, #lockdrop-beta .page-wrap .rte .toggles label {
     flex: 0 100%;
-    border: 1px solid #d580ff;
+    border: 1px solid #ff00ff;
     border-width: 1px;
     font-size: 16px;
     text-align: center;
@@ -413,12 +413,12 @@ a:hover {
 #lockdrop .page-wrap input[type=radio], #lockdrop-beta .page-wrap input[type=radio] {
     padding: 6px;
     margin-right: 10px;
-    border: 1px solid #d580ff
+    border: 1px solid #ff00ff
 }
 
 #lockdrop .page-wrap input[type=text], #lockdrop-beta .page-wrap input[type=text] {
     line-height: 56px;
-    border: 1px solid #d580ff;
+    border: 1px solid #ff00ff;
     padding: 0 25px;
     color: #fff;
     margin: 20px 0;
@@ -426,7 +426,7 @@ a:hover {
 }
 
 #lockdrop .page-wrap input[type=radio]:checked, #lockdrop-beta .page-wrap input[type=radio]:checked {
-    background: #d580ff
+    background: #ff00ff
 }
 
 #lockdrop .page-wrap .home-reserve-product, #lockdrop-beta .page-wrap .home-reserve-product {
@@ -478,7 +478,7 @@ a:hover {
     width: 100%;
     bottom: 0;
     left: 0;
-    background: #d580ff;
+    background: #ff00ff;
     z-index: 1;
     color: #000;
     font-size: 16px
@@ -591,7 +591,7 @@ a:hover {
 
 #product input[type=text] {
     line-height: 56px;
-    border: 1px solid #d580ff;
+    border: 1px solid #ff00ff;
     padding: 0 25px;
     color: #fff;
     margin: 20px 0;
@@ -702,7 +702,7 @@ a:hover {
 }
 
 .kong-4-kong-top p strong {
-    color: #d580ff
+    color: #ff00ff
 }
 
 .kong-4-kong-wallet {
@@ -717,7 +717,7 @@ a:hover {
 }
 
 .kong-4-kong-wallet p a {
-    color: #d580ff
+    color: #ff00ff
 }
 
 .kong-4-kong-wallet .wallet {
@@ -784,7 +784,7 @@ a:hover {
 }
 
 .kong-4-kong-wallet .wallet .connected:hover {
-    color: #d580ff;
+    color: #ff00ff;
     text-decoration: none
 }
 
@@ -795,7 +795,7 @@ a:hover {
 
 .kong-4-kong-wallet input {
     height: 56px;
-    border: solid 1px #d580ff;
+    border: solid 1px #ff00ff;
     padding: 0 24px;
     flex: 1;
     margin-right: 16px;
@@ -898,7 +898,7 @@ a:hover {
 }
 
 .kong-4-kong-notes-selector li.active, .kong-4-kong-notes-selector li:hover {
-    border: 1px solid #d580ff
+    border: 1px solid #ff00ff
 }
 
 .kong-4-kong-fine {
@@ -1004,15 +1004,41 @@ a:hover {
     margin: 0;
     color: #fff;
     background: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.header .logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.8) 50%,
+            rgba(255, 255, 255, 0) 100%
+    );
+    animation: shine 2s infinite;
+}
+
+@keyframes shine {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+    }
 }
 
 .header .logo-img {
-
 }
 
 .header .logo h1 {
     color: inherit;
-    /*text-shadow: 0 0 30px #d580ff;*/
+    /*text-shadow: 0 0 30px #ff00ff;*/
 }
 
 @media (min-width: 820px) {
@@ -1122,7 +1148,7 @@ a:hover {
 
 .footer input {
     line-height: 56px;
-    border: 1px solid #d580ff;
+    border: 1px solid #ff00ff;
     padding: 0 25px 3px;
     flex: 1;
     margin-right: 14px;
@@ -1350,7 +1376,7 @@ a:hover {
 @media (min-width: 1000px) {
     .home-what-top {
         display: flex;
-        margin-bottom: -150px
+        margin-bottom: -220px
     }
 }
 
@@ -1370,8 +1396,13 @@ a:hover {
 
 .home-what-top .image {
     flex: 1;
-    max-width: 670px;
+    width: 100%;
+    max-width: 850px;
     margin-left: auto
+}
+
+.home-what-top .image img {
+    width: 100%;
 }
 
 .home-what-text {
@@ -1481,7 +1512,7 @@ a:hover {
     display: block;
     width: 1px;
     height: 100%;
-    background: #d580ff
+    background: #ff00ff
 }
 
 .home-how-step:last-child:before {
@@ -1494,7 +1525,7 @@ a:hover {
     align-items: center;
 }
 .home-how-step .icon-wrap .icon {
-    border: 1px solid #d580ff;
+    border: 1px solid #ff00ff;
     border-radius: 50%;
     position: relative;
     z-index: 1;
@@ -1592,7 +1623,7 @@ a:hover {
 
 .home-reserve-header input {
     line-height: 56px;
-    border: 1px solid #d580ff;
+    border: 1px solid #ff00ff;
     padding: 0 25px 3px;
     flex: 1;
     margin-right: 14px;
@@ -1862,7 +1893,7 @@ a:hover {
 
 input[type=email] {
     line-height: 56px;
-    border: 1px solid #d580ff;
+    border: 1px solid #ff00ff;
     padding: 0 25px 3px;
     flex: 1;
     margin-right: 14px;
@@ -1976,7 +2007,7 @@ input[type=email]::placeholder {
 }
 
 .home-photo-grid-header strong {
-    color: #d580ff;
+    color: #ff00ff;
     font-weight: 400
 }
 
@@ -2024,7 +2055,7 @@ input[type=email]::placeholder {
 
 pre.hacking-screen {
     background-color: #000000;   /* Black background */
-    color: #d580ff;              /* Neon purple text */
+    color: #ff00ff;              /* Neon purple text */
     font-family: "Courier New", Courier, monospace; /* Monospace font */
     font-size: 16px;
     padding: 20px;
