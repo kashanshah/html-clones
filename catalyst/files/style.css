@@ -2269,24 +2269,50 @@ img {
 .integrated-terminal-sec {
   position: relative;
 }
+.integrated-terminal-sec .container-main {
+  }
+@media screen and (min-width: 1280px) {
+  .integrated-terminal-sec .container-main {
+    /*margin-left: 0;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+  }
+  .left-sec {
+    width: 50%;
+  }
+  .right-sec {
+    width: 50%;
+  }
+}
 .integrated-terminal-sec .decorative-img {
-  position: absolute;
-  left: 0;
-  top: 0;
+  /*position: absolute;*/
+  /*left: 0;*/
+  /*top: 0;*/
   max-width: 100%;
   max-height: 100%;
-  width: 50vw;
-  height: 100%;
-  object-fit: contain;
-  object-position: left top;
+  /*width: 50vw;*/
+  /*height: 100%;*/
+  /*object-fit: contain;*/
+  /*object-position: left top;*/
 }
 
 #integrated-terminal {
-  width: 500px;
+  width: 100%;
   margin: 0 auto;
   max-width: 100%;
 }
-
+.powered-by-img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 0;
+  margin-left: auto;
+  object-fit: scale-down;
+  object-position: right;
+  width: 200px;
+  padding: 0 15px;
+}
 .h1 {
   font-family: Vins Dojo, sans-serif;
   font-size: 9.31em;
@@ -2799,7 +2825,11 @@ img {
 }
 
 .text-center {
-  text-align: center;
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
 }
 
 .mb-3 {
