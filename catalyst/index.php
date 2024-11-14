@@ -500,7 +500,7 @@
                 </div>
                 <div class="block-im-people">
                     <div class="blpx-im-people"><img
-                                src="./files/66db6196aedd1f29a107fe66_бойс клуб гэйс 2.webp"
+                                src="./files/66db6196aedd1f29a107fe66.webp"
                                 loading="lazy" data-w-id="58be2d76-9d05-80c0-dc39-96d7da2dcea1" alt=""
                                 class="image"/></div>
                     <div data-w-id="d87a5e4d-8688-ad99-8ecb-72784e61df35" class="box-image-replica"><img
