@@ -584,6 +584,10 @@ body {
     gap: 2.5rem
 }
 
+.gap-20 {
+    gap: 5rem
+}
+
 .gap-2 {
     gap: .5rem
 }
@@ -744,6 +748,11 @@ body {
     object-position: center
 }
 
+.object-contain {
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
 .p-3 {
     padding: .75rem
 }
@@ -842,6 +851,15 @@ body {
 }
 
 .text-center {
+    text-align: center !important;
+}
+
+@media (min-width: 768px) {
+    .text-md-left {
+        text-align: left !important;
+    }
+}
+.text-center {
     text-align: center
 }
 
@@ -906,7 +924,8 @@ body {
 }
 
 .tracking-widest {
-    letter-spacing: .1em
+    letter-spacing: .1em;
+    white-space: nowrap;
 }
 
 .text-\[\#F11B2C\] {
@@ -1505,4 +1524,44 @@ body {
     font-weight: 400;
     font-style: normal;
     font-display: swap
+}
+
+.cs-carousel {
+    width: 100%;
+    overflow: hidden;
+    /*background-color: #fff;*/
+    /*border: 4px solid #95d1d2;*/
+    display: flex;
+    align-items: center;
+}
+
+.cs-carousel--content {
+    display: flex;
+    gap: 100px;
+    animation: scroll 30s linear infinite;
+}
+
+.cs-carousel--content > span {
+    padding: 4px 8px;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    white-space: nowrap;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.jupiter-sec {
+    padding: 0px 0 0;
+}
+
+.jupiter-img {
+    margin-bottom: -10px;
+    object-position: bottom;
 }
