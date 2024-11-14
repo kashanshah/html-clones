@@ -1,0 +1,12 @@
+HTTrack3.49-2 launched on Thu, 14 Nov 2024 05:16:40 at https://www.fofar.meme/
+(httrack https://www.fofar.meme/ -O /Users/kashan/workspace/htdocs/aj/catalyst/httrack )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+05:16:40	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.fofar.meme/ (from primary/primary)
+05:16:40	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.fofar.meme/ (from primary/primary)
+05:16:40	Error: 	"Bad Gateway" (502) after 2 retries at link https://www.fofar.meme/ (from primary/primary)
+05:16:40	Warning: 	No data seems to have been transferred during this session! : restoring previous one!
