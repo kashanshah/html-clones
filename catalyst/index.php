@@ -1,9 +1,9 @@
 <!DOCTYPE html><!-- Last Published: Fri Sep 06 2024 22:15:25 GMT+0000 (Coordinated Universal Time) -->
-<html data-wf-domain="www.CATALYST.meme" data-wf-page="66db6196aedd1f29a107fe24" data-wf-site="66db6196aedd1f29a107fe28"
+<html data-wf-domain="www.LABCAT.meme" data-wf-page="66db6196aedd1f29a107fe24" data-wf-site="66db6196aedd1f29a107fe28"
       lang="en">
 <head>
     <meta charset="utf-8"/>
-    <title>CATALYST</title>
+    <title>LABCAT</title>
     <meta content="A legendary character inspired by Mat Furie&#x27;s Boy&#x27;s Club comic. The red mascot of the red chain, TRON."
           name="description"/>
     <meta property="og:type" content="website"/>
@@ -86,14 +86,14 @@
     <section>
         <div class="px-6 py-3 md:py-12 lg:py-3 bg-black w-full relative z-10 overflow-hidden"><h1
                     class="text-white text-center text-6xl md:text-[100px] lg:text-[150px] xl:text-[200px]"
-                    >$CATALYST</h1></div>
+                    >$LABCAT</h1></div>
     </section>
     <section class="bg-[#005BD1] mt-[-6%] md:mt-[-8%] lg:mt-[-4%] overflow-hidden">
         <div class="container mx-auto px-6">
             <div class="w-full flex flex-col justify-center items-center gap-2 mx-auto relative z-20">
                 <img class="w-full mx-auto min-h-[250px] md:min-h-0 object-cover" src="./files/hero.png"/>
                 <div class="hidden lg:flex justify-center items-center gap-4 pb-7 mt-[-5.5%]">
-<!--                    <a class="bg-gradient-to-r from-[#FFE900] via-[#FFD700] to-[#FFC700] rounded-2xl py-3 px-6 text-lg font-black border-4 border-black relative overflow-hidden hover:from-[#FFC700] hover:to-[#FFE900] transition-all duration-300 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[-2px] hover:translate-y-[-2px]" href="https://warroom.CATALYSTs.world/" target="_blank">-->
+<!--                    <a class="bg-gradient-to-r from-[#FFE900] via-[#FFD700] to-[#FFC700] rounded-2xl py-3 px-6 text-lg font-black border-4 border-black relative overflow-hidden hover:from-[#FFC700] hover:to-[#FFE900] transition-all duration-300 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[-2px] hover:translate-y-[-2px]" href="https://warroom.LABCATs.world/" target="_blank">-->
 <!--                        <span class="relative z-10 tracking-wider">⚔️ War Room ⚔️</span>-->
 <!--                    </a>-->
                     <div class="flex items-center py-2 px-6 bg-white gap-4 rounded-2xl">
@@ -101,11 +101,11 @@
                         <button><img class="max-w-[30px]" src="./media/copy.png"></button>
                     </div>
                     <div class="flex items-center gap-4 py-2 px-5 bg-white rounded-2xl">
-                        <a href="https://t.me/CATALYSTs_World" target="_blank">
+                        <a href="https://t.me/LABCATs_World" target="_blank">
                             <img class="max-w-[35px]" src="./media/tele.png" />
                         </a>
                         <div class="h-[30px] w-[2px] bg-black"></div>
-                        <a href="https://x.com/CATALYSTs_world" target="_blank"><img class="max-w-[35px]"
+                        <a href="https://x.com/LABCATs_world" target="_blank"><img class="max-w-[35px]"
                                                                                      src="./media/twitter.png"></a>
                     </div>
 <!--                    <img class="max-w-[350px] mt-[-14%]" src="./media/green_man.png"/>-->
@@ -113,14 +113,14 @@
                 <div class="w-full flex flex-col  justify-center items-center gap-3 lg:hidden mt-[-3%] pb-5">
                     <div class="w-full flex justify-center items-center gap-3"><a
                                 class="bg-gradient-to-r from-[#FFE900] via-[#FFD700] to-[#FFC700] rounded-2xl py-2 px-4 text-sm font-black border-4 border-black relative overflow-hidden hover:from-[#FFC700] hover:to-[#FFE900] transition-all duration-300 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[-2px] hover:translate-y-[-2px]"
-                                href="https://warroom.CATALYSTs.world/" target="_blank"
+                                href="https://warroom.LABCATs.world/" target="_blank"
                                 style="will-change: transform; transform: scale(1.10187) rotate(-2.99935deg);"><span
                                     class="relative z-10 tracking-wider">⚔️ War Room ⚔️</span></a>
                         <div class="flex justify-center items-center gap-4 py-2 px-5 bg-white rounded-2xl"><a
-                                    href="https://t.me/CATALYSTs_World" target="_blank"><img
+                                    href="https://t.me/LABCATs_World" target="_blank"><img
                                         class="max-w-[25px] md:max-w-[30px]" src="./media/tele.png"></a>
                             <div class="h-[25px] md:h-[30px] w-[2px] bg-black"></div>
-                            <a href="https://x.com/CATALYSTs_world" target="_blank"><img
+                            <a href="https://x.com/LABCATs_world" target="_blank"><img
                                         class="max-w-[25px] md:max-w-[30px]"
                                         src="./media/twitter.png"></a></div>
                     </div>
@@ -151,9 +151,9 @@
                 >
                 <div class="w-full grid justify-center gap-4 mx-auto lg:order-1" >
                     <h1 class="text-5xl md:text-6xl xl:text-7xl tracking-wide text-md-left text-center"
-                        >$CATALYST <br>IS ABOUT TO <br>UNLEASH <br>IT ALL</h1><a
+                        >$LABCAT <br>IS ABOUT TO <br>UNLEASH <br>IT ALL</h1><a
                             class="uppercase mx-auto lg:mx-0 lg:mr-auto px-3 py-2 xl:px-5 xl:py-3 bg-white text-xl md:text-2xl tracking-wider lg:text-3xl xl:text-5xl border-black border-[7px] xl:border-[10px] rounded-2xl md:rounded-3xl"
-                            href="https://t.me/CATALYSTs_World" target="_blank" >join
+                            href="https://t.me/LABCATs_World" target="_blank" >join
                         us</a></div>
             </div>
         </div>
@@ -183,7 +183,7 @@
                                     class="max-w-[130px] md:max-w-[200px]" src="./media/view.png"></a><a href="/"><img
                                     class="max-w-[130px] md:max-w-[200px]" src="./media/cg.png"></a><a href="/"><img
                                     class="max-w-[130px] md:max-w-[200px]" src="./media/ave.png"></a><a
-                                href="https://coinmarketcap.com/currencies/CATALYST-world/" target="_blank"><img
+                                href="https://coinmarketcap.com/currencies/LABCAT-world/" target="_blank"><img
                                     class="max-w-[130px] md:max-w-[200px]" src="./media/cmc.png"></a><a href="/"><img
                                     class="max-w-[130px] md:max-w-[200px]" src="./media/ave.png"></a><a
                                 href="https://www.dextools.io/app/en/ether/pair-explorer/0xb5bc2a4acb16cb18bfc5f6c74f6b605ece8686e3?t=1730678347288"
@@ -192,7 +192,7 @@
                                     class="max-w-[130px] md:max-w-[200px]" src="./media/view.png"></a><a href="/"><img
                                     class="max-w-[130px] md:max-w-[200px]" src="./media/cg.png"></a><a href="/"><img
                                     class="max-w-[130px] md:max-w-[200px]" src="./media/ave.png"></a><a
-                                href="https://coinmarketcap.com/currencies/CATALYST-world/" target="_blank"><img
+                                href="https://coinmarketcap.com/currencies/LABCAT-world/" target="_blank"><img
                                     class="max-w-[130px] md:max-w-[200px]" src="./media/cmc.png"></a><a href="/"><img
                                     class="max-w-[130px] md:max-w-[200px]" src="./media/ave.png"></a><a
                                 href="https://www.dextools.io/app/en/ether/pair-explorer/0xb5bc2a4acb16cb18bfc5f6c74f6b605ece8686e3?t=1730678347288"
@@ -201,7 +201,7 @@
                                     class="max-w-[130px] md:max-w-[200px]" src="./media/view.png"></a><a href="/"><img
                                     class="max-w-[130px] md:max-w-[200px]" src="./media/cg.png"></a><a href="/"><img
                                     class="max-w-[130px] md:max-w-[200px]" src="./media/ave.png"></a><a
-                                href="https://coinmarketcap.com/currencies/CATALYST-world/" target="_blank"><img
+                                href="https://coinmarketcap.com/currencies/LABCAT-world/" target="_blank"><img
                                     class="max-w-[130px] md:max-w-[200px]" src="./media/cmc.png"></a><a href="/"><img
                                     class="max-w-[130px] md:max-w-[200px] mr-5" src="./media/ave.png"></a></div>
                 </div>
@@ -210,14 +210,14 @@
     </section>
     <section class="bg-[#005BD1] border-b-black border-b-[7px] xl:border-b-[8px] 2xl:border-b-[10px]">
         <h1 class="text-white py-10 text-center tracking-wider text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl">
-            THE STORY BEHIND $CATALYST</h1>
+            THE STORY BEHIND $LABCAT</h1>
         <div class="w-full grid lg:grid-cols-2 mx-auto">
             <div class="relative" ><img class="w-full object-cover h-full"
                                                                               src="./media/img1.png"
                                                                               >
                 <div class="p-3 mx-6 md:mx-0 xl:p-5 bg-white border-black border-[10px] rounded-2xl md:max-w-[400px] lg:max-w-[350px] xl:max-w-[450px] absolute top-1/2 -translate-y-1/2 right-0"
                      ><h1 class="tracking-wider md:text-2xl 2xl:text-3xl">
-                        CATALYST, a
+                        LABCAT, a
                         fearless and overly dramatic cat with a thirst for greatness, comes from a long line of
                         legendary heroes.</h1></div>
             </div>
@@ -293,7 +293,7 @@
                  ><h1
                         class="tracking-wider text-center text-2xl md:text-4xl xl:text-5xl">We Currently Listed On</h1>
                 <div class="w-full grid grid-cols-2 lg:grid-cols-4 gap-5 mx-auto items-center"><a
-                            href="https://blynex.com/spot/CATALYST_USDT" target="_blank"><img
+                            href="https://blynex.com/spot/LABCAT_USDT" target="_blank"><img
                                 class="max-w-[300px] w-full mx-auto " src="./media/blynex.png"></a><a
                             href="https://x.com/bitmartexchange/status/1854593059776086171?s=46&amp;t=sqkb2Y7HmjpoXsS13_irRg"
                             target="_blank"><img class="max-w-[300px] w-full mx-auto" src="./media/bitmart.png"></a><a
@@ -365,11 +365,11 @@
                         </div>
                     </div>
                     <div class="flex items-center gap-4 py-2 px-5 bg-white rounded-2xl"><a
-                                href="https://t.me/CATALYSTs_World" target="_blank"><img
+                                href="https://t.me/LABCATs_World" target="_blank"><img
                                     class="max-w-[30px] md:max-w-[35px]"
                                     src="./media/tele.png"></a>
                         <div class="h-[25px] md:h-[30px] w-[2px] bg-black"></div>
-                        <a href="https://x.com/CATALYSTs_world" target="_blank"><img
+                        <a href="https://x.com/LABCATs_world" target="_blank"><img
                                     class="max-w-[30px] md:max-w-[35px]"
                                     src="./media/twitter.png"></a></div>
                 </div>
