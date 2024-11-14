@@ -2266,6 +2266,27 @@ img {
   position: relative;
 }
 
+.integrated-terminal-sec {
+  position: relative;
+}
+.integrated-terminal-sec .decorative-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 100%;
+  max-height: 100%;
+  width: 50vw;
+  height: 100%;
+  object-fit: contain;
+  object-position: left top;
+}
+
+#integrated-terminal {
+  width: 500px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
 .h1 {
   font-family: Vins Dojo, sans-serif;
   font-size: 9.31em;
@@ -2777,8 +2798,25 @@ img {
   position: relative;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.mb-3 {
+  margin-bottom: 2rem;
+}
+
 .bg-purple {
     background-color: var(--purple) !important;
+}
+
+.bg-black {
+    background-color: #000000 !important;
+}
+
+.py-5 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .box-image-art {

@@ -298,6 +298,31 @@
                 </div>
             </div>
         </section>
+        <section class="integrated-terminal-sec section-token py-5 bg-black">
+            <img src="./files/66db6196aedd1f29a107fe.webp" alt="" class="decorative-img" />
+            <div class="container-main">
+                <h3 class="h3 text-center mb-3">How to be a labcat</h3>
+                <div id="integrated-terminal"></div>
+                <script src='https://terminal.jup.ag/main-v2.js'></script>
+                <script>
+                    window.Jupiter.init({
+                        displayMode: "integrated",
+                        integratedTargetId: "integrated-terminal",
+                        endpoint: "https://docs-demo.solana-mainnet.quiknode.pro",
+                        passThroughWallet: true,
+                        strictTokenList: false,
+                        formProps: {
+                            fixedInputMint: false,
+                            fixedOutputMint: true,
+                            swapMode: "ExactIn",
+                            initialInputMint: "So11111111111111111111111111111111111111112",
+                            initialOutputMint: "MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5"
+                        }
+
+                    });
+                </script>
+            </div>
+        </section>
         <section id="about" data-w-id="36fe0b17-0e8b-c180-8462-ffe5fd015d8a" class="section-what-is">
             <div class="wrapper-what-is">
                 <div class="container-main">
