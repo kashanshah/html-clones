@@ -105,10 +105,10 @@
                     <nav>
                         <ul class="topnav" id="myTopnav" data-aos="fade-down" data-aos-delay="300">
                             <li><a href="#about">ABOUT</a></li>
-                            <li><a href="#tokenomics">TIKTOK</a></li>
+                            <li><a href="#tiktok">TIKTOK</a></li>
                             <li><a href="#buy">BUY</a></li>
                             <li>
-                                <a class="uppercase w-full mx-auto lg:mx-0 lg:mr-auto px-3 py-2 xl:px-5 xl:py-3 bg-white text-xl md:text-2xl text-black lg:text-3xl xl:text-5xl border-black border-[7px] xl:border-[10px] rounded-2xl md:rounded-3xl" href="https://t.me/LABCATs_World" target="_blank">
+                                <a class="uppercase w-full mx-auto lg:mx-0 lg:mr-auto px-3 py-2 xl:px-5 xl:py-3 bg-white text-xl md:text-2xl text-black lg:text-3xl xl:text-5xl border-black border-[7px] xl:border-[10px] rounded-2xl md:rounded-3xl" href="#join">
                                     join us
                                 </a>
                             </li>
@@ -241,7 +241,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-light-green overflow-hidden">
+    <section class="bg-light-green overflow-hidden" id="about">
         <div class="container mx-auto px-6 pt-10 max-w-[1300px] w-full">
             <div class="w-full grid lg:grid-cols-2 items-center gap-8 mx-auto">
                 <div class="w-full grid justify-center gap-4 mx-auto lg:order-1" data-aos="fade-right" data-aos-delay="200">
@@ -249,14 +249,14 @@
                         Labcat's creations were marvels of reinvention, daring transformations that seemed to defy both nature and logic. In his dim lab, he turned ordinary beings into entities of rare beauty, cloaked in verdant greens, their essence pulsing with a strange new life. Bears, once fierce and wild, emerged as symbols of rebirth, their eyes gleaming with an otherworldly light, while forgotten figures from myths returned, wrapped in moss and mystery, vibrant yet intangible. Each creation was a calculated risk—a bold experiment that carried a shimmer of brilliance beneath its surface, a gamble that, like all his work, might rise or fade, yet left its own mark on the world.
                     </p>
                     <a class="uppercase mx-auto lg:mx-0 lg:mr-auto px-3 py-2 xl:px-5 xl:py-3 bg-white text-xl md:text-2xl tracking-wider lg:text-3xl xl:text-5xl border-black border-[7px] xl:border-[10px] rounded-2xl md:rounded-3xl"
-                            href="https://t.me/LABCATs_World" target="_blank" >join
+                            href="#join">join
                         us</a></div>
                 <img class="w-full object-cover mx-auto order-2 lg:order-1 max-w-[700px]" src="./media/about_img.png" data-aos="fade-left" data-aos-delay="200">
             </div>
         </div>
     </section>
 
-    <section class="bg-[#005BD1] border-b-black border-b-[7px] xl:border-b-[8px] 2xl:border-b-[10px]">
+    <section class="bg-[#005BD1] border-b-black border-b-[7px] xl:border-b-[8px] 2xl:border-b-[10px]" id="tiktok">
         <h1 class="text-white py-10 text-center tracking-wider text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl" data-aos="fade-up" data-aos-delay="200">cataclysms</h1>
         <div class="container mx-auto tiktok-videos-sec">
             <?php for($i = 1; $i <= 17; $i++) :?>
@@ -372,7 +372,7 @@
     </section>
 
     <section>
-        <div class="relative bg-black py-5 overflow-hidden">
+        <div class="relative bg-black py-5 overflow-hidden" id="join">
 <!--            <img class="w-full object-cover object-center mt-[-1%] min-h-[510px] md:min-h-[500px]" src="./media/shadow.png" />-->
             <div class="w-full flex flex-col justify-center items-center gap-3 xl:gap-6">
                 <h1 class="text-white tracking-widest md:tracking-[10px] text-4xl md:text-5xl xl:text-7xl" data-aos="zoom-out" data-aos-delay="200">JOIN THE LEGION</h1>
