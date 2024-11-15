@@ -275,10 +275,12 @@
     // functionality to copy text from inviteCode to clipboard
 
     // trigger copy event on click
-    document.getElementById('copy').addEventListener('click', function(event) {
-        console.log(event);
-        copyToClipboard(event);
-    });
+    if(document.getElementById('copy')) {
+        document.getElementById('copy').addEventListener('click', function(event) {
+            console.log(event);
+            copyToClipboard(event);
+        });
+    }
 
     // event handler
     function copyToClipboard(e) {
