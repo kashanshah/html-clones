@@ -676,7 +676,7 @@ body {
 
 .bg-\[\#005BD1\] {
     --tw-bg-opacity: 1;
-    background-color: rgb(0 91 209 / var(--tw-bg-opacity))
+    background-color: rgb(117 33 138);
 }
 
 .bg-\[\#00DA01\] {
@@ -696,7 +696,7 @@ body {
 
 .bg-\[\#F11B2C\] {
     --tw-bg-opacity: 1;
-    background-color: rgb(241 27 44 / var(--tw-bg-opacity))
+    background-color: rgb(45 123 30);
 }
 
 .bg-\[\#FFE900\] {
@@ -707,6 +707,22 @@ body {
 .bg-\[\#FFF15B\] {
     --tw-bg-opacity: 1;
     background-color: rgb(255 241 91 / var(--tw-bg-opacity))
+}
+
+.bg-green {
+    background: #2d7b1e !important;
+}
+
+.bg-light-green {
+    background: #01e81e !important;
+}
+
+.bg-blue {
+    background: #005BD1 !important;
+}
+
+.bg-yellow {
+    background: #ffe900 !important;
 }
 
 .bg-black {
@@ -721,6 +737,14 @@ body {
 
 .bg-gradient-to-r {
     background-image: linear-gradient(to right, var(--tw-gradient-stops))
+}
+
+.text-blue {
+    color: #005BD1 !important;
+}
+
+.text-purple {
+    color: rgb(117 33 138) !important;
 }
 
 .from-\[\#FFE900\] {
@@ -909,6 +933,10 @@ body {
 
 .uppercase {
     text-transform: uppercase
+}
+
+.text-transform-none {
+    text-transform: none !important;
 }
 
 .leading-\[18px\] {
@@ -1559,9 +1587,257 @@ body {
 
 .jupiter-sec {
     padding: 0px 0 0;
+    border-bottom: 10px solid black
+}
+
+.jupiter-sec > .container {
+    gap: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+    .jupiter-sec > .container {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
 }
 
 .jupiter-img {
     margin-bottom: -10px;
     object-position: bottom;
+}
+
+.hero-banner .row {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+
+@media screen and (max-width: 600px) {
+    .hero-banner .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.hero-banner .row > div {
+    height: auto;
+}
+
+.hero-banner .logo-img {
+    width: 130px;
+}
+
+@media screen and (max-width: 600px) {
+    .hero-banner .logo-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.hero-banner {
+    background: #75218a;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .hero-banner {
+        padding-top: 0px;
+    }
+}
+
+.hero-banner .hero-img {
+    height: 100%;
+    object-position: bottom;
+    object-fit: contain;
+}
+
+.hero-banner .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.hero-banner .hero-content-btns {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .hero-banner .hero-content-btns {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.hero-banner .hero-content .hero-heading {
+    color: #ffe900;
+}
+
+.hero-banner .hero-content .button-strip {
+    background: #FFE900;
+}
+
+#header nav {
+    /*display: flex;*/
+    /*justify-content: center; */
+    /*align-items: center; */
+    /*padding: 0 10px;*/
+}
+
+#header nav ul {
+    /*list-style-type: none;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*display: flex;*/
+}
+
+#header nav ul li:not(:last-child) {
+    margin-right: 45px;
+}
+
+#header nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    #header nav ul li a {
+        font-size: 1rem;
+    }
+}
+
+
+.topnav {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.topnav a:hover {
+    /*background-color: #ddd;*/
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav .menu-icon {
+    display: none;
+    margin-right: 0;
+}
+
+.topnav .uppercase {
+    font-size: inherit;
+    color: #000000
+}
+
+.topnav .by-btn:hover {
+    color: white;
+}
+
+
+.topnav .menu-icon a,
+.topnav .menu-icon a:hover,
+.topnav .menu-icon a:focus,
+.topnav .menu-icon a:focus-visible {
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav {
+        justify-content: space-between;
+        background-color: #333;
+        margin: 0 0 2rem 0;
+    }
+    .topnav li {
+    }
+    .topnav li:not(:first-child) {
+        display: none;
+    }
+    .topnav .menu-icon {
+        float: right;
+        display: block !important;
+    }
+    .topnav .by-btn {
+        /*padding-left: 5px;*/
+        /*padding-right: 5px;*/
+        width: 100%;
+        margin-bottom: 0;
+    }
+    #header nav ul li:not(:last-child) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+        flex-direction: column;
+    }
+    .topnav.responsive .menu-icon {
+        /*display: block;*/
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive li {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.tiktok-embed {
+    text-align: center;
+}
+.tiktok-embed blockquote section {
+    display: none;
+}
+.tiktok-embed iframe {
+    width: auto !important;
+    margin: auto !important;
+}
+
+.tiktok-videos-sec {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 600px) {
+    .tiktok-videos-sec {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.menu-column {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-column {
+        display: block;
+    }
 }
