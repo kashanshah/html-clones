@@ -212,7 +212,7 @@
     </section>
     <section class="bg-blue jupiter-sec">
         <div class="container mx-auto ">
-            <img class="max-w-[500px] w-full object-contain jupiter-img relative z-20" src="./media/cat_eth.png" alt="" data-aos="fade-up" data-aos-delay="200">
+            <img class="max-w-[50] w-full object-contain jupiter-img relative z-20" src="./media/cat_eth.png" alt="" data-aos="fade-up" data-aos-delay="200">
             <div class="p-4 md:p-6 bg-black border-black border-[10px] rounded-3xl max-w-[500px] xl:max-w-[550px] mb-10 lg:mb-10 mt-11">
                 <div class="tracking-wider md:text-2xl">
                     <div id="integrated-terminal"></div>

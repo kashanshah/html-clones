@@ -543,6 +543,10 @@ body {
     max-width: 500px
 }
 
+.max-w-\[50\] {
+    max-width: 500%
+}
+
 .max-w-\[60px\] {
     max-width: 60px
 }
