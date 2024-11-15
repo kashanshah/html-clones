@@ -544,7 +544,7 @@ body {
 }
 
 .max-w-\[50\] {
-    max-width: 500%
+    max-width: 50%
 }
 
 .max-w-\[60px\] {
@@ -1985,4 +1985,9 @@ body {
 .tiktok-videos-sec .video-frame.video-frame-36 {
     height: 385px;
     line-height: 385px;
+}
+
+.footer {
+    margin: 0;
+    padding: 60px 0;
 }

@@ -9,8 +9,7 @@
     <meta property="og:type" content="website"/>
     <meta content="summary_large_image" name="twitter:card"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <link href="./files/style-legacy.css" rel="stylesheet" type="text/css"/>
-    <link href="./files/style.css" rel="stylesheet" type="text/css"/>
+    <link href="./files/style.css?v=1" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="./files/app.min.js"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" rel="stylesheet">
@@ -130,7 +129,7 @@
                     <div class="hero-content-btns" data-aos="zoom-out" data-aos-delay="300">
                         <div class="button-strip flex items-center py-2 px-6 bg-white gap-4 rounded-2xl">
                             <h1 class="text-3xl">0x556c3c...8e64Df4</h1>
-                            <button><img class="max-w-[30px]" src="./media/copy.png"></button>
+                            <button class="copy-btn" data-clipboard-text="000000xxxxxxx00000"><img class="max-w-[30px]" src="./media/copy.png"></button>
                         </div>
                         <div class="button-strip flex items-center gap-4 py-2 px-5 bg-white rounded-2xl">
                             <a href="https://x.com/LABCATs_world" target="_blank">
@@ -371,32 +370,30 @@
         </div>
     </section>
 
-    <section>
-        <div class="relative bg-black py-5 overflow-hidden" id="join">
+    <footer class="footer relative bg-black py-5 overflow-hidden" id="join">
 <!--            <img class="w-full object-cover object-center mt-[-1%] min-h-[510px] md:min-h-[500px]" src="./media/shadow.png" />-->
-            <div class="w-full flex flex-col justify-center items-center gap-3 xl:gap-6">
-                <h1 class="text-white tracking-widest md:tracking-[10px] text-4xl md:text-5xl xl:text-7xl" data-aos="zoom-out" data-aos-delay="200">JOIN THE LEGION</h1>
-                <h2 class="text-[#FFF15B] md:text-3xl tracking-widest md:tracking-[5px]" data-aos="zoom-out" data-aos-delay="200">AND BECOME LEGENDARY!</h2>
-                <div class="flex w-full justify-center items-center flex-col md:flex-row gap-3 xl:gap-5" data-aos="zoom-out" data-aos-delay="200">
-                    <div class="flex items-center gap-3 xl:gap-5">
-                        <a href="https://dexscreener.com/ethereum/0xb5bc2a4acb16cb18bfc5f6c74f6b605ece8686e3" target="_blank"><img class="max-w-[150px] md:max-w-[200px]" src="./media/scr.png"></a>
-                        <div class="flex items-center px-4 py-2 md:py-2 md:px-6 bg-white gap-4 rounded-2xl">
-                            <h1 class="md:text-3xl">0x556...64Df4</h1>
-                            <button><img class="max-w-[20px] md:max-w-[30px]" src="./media/copy.png"></button>
-                        </div>
+        <div class="w-full flex flex-col justify-center items-center gap-3 xl:gap-6" data-aos="zoom-out" data-aos-delay="200">
+            <h1 class="text-white tracking-widest md:tracking-[10px] text-4xl md:text-5xl xl:text-7xl">JOIN THE LEGION</h1>
+            <h2 class="text-[#FFF15B] md:text-3xl tracking-widest md:tracking-[5px]">AND BECOME LEGENDARY!</h2>
+            <div class="flex w-full justify-center items-center flex-col md:flex-row gap-3 xl:gap-5">
+                <div class="flex items-center gap-3 xl:gap-5">
+                    <a href="https://dexscreener.com/ethereum/0xb5bc2a4acb16cb18bfc5f6c74f6b605ece8686e3" target="_blank"><img class="max-w-[150px] md:max-w-[200px]" src="./media/scr.png"></a>
+                    <div class="flex items-center px-4 py-2 md:py-2 md:px-6 bg-white gap-4 rounded-2xl">
+                        <h1 class="md:text-3xl">0x556...64Df4</h1>
+                        <button class="copy-btn" data-clipboard-text="000000xxxxxxx00000"><img class="max-w-[20px] md:max-w-[30px]" src="./media/copy.png"></button>
                     </div>
-                    <div class="flex items-center gap-4 py-2 px-5 bg-white rounded-2xl"><a
-                                href="https://t.me/LABCATs_World" target="_blank"><img
-                                    class="max-w-[30px] md:max-w-[35px]"
-                                    src="./media/tele.png"></a>
-                        <div class="h-[25px] md:h-[30px] w-[2px] bg-black"></div>
-                        <a href="https://x.com/LABCATs_world" target="_blank"><img
-                                    class="max-w-[30px] md:max-w-[35px]"
-                                    src="./media/twitter.png"></a></div>
                 </div>
+                <div class="flex items-center gap-4 py-2 px-5 bg-white rounded-2xl"><a
+                            href="https://t.me/LABCATs_World" target="_blank"><img
+                                class="max-w-[30px] md:max-w-[35px]"
+                                src="./media/tele.png"></a>
+                    <div class="h-[25px] md:h-[30px] w-[2px] bg-black"></div>
+                    <a href="https://x.com/LABCATs_world" target="_blank"><img
+                                class="max-w-[30px] md:max-w-[35px]"
+                                src="./media/twitter.png"></a></div>
             </div>
         </div>
-    </section>
+    </footer>
 </main>
 
 
@@ -441,8 +438,7 @@
 </script>
 
 <!--copied-->
-<script type="text/javascript"
-        src="https://milankyncl.github.io/jquery-copy-to-clipboard/jquery.copy-to-clipboard.js"></script>
+<script type="text/javascript" src="https://milankyncl.github.io/jquery-copy-to-clipboard/jquery.copy-to-clipboard.js"></script>
 <script>
     //Change SAVE20NOW to whatever coupon or text you want to be copied
     $('input#coup-field').val('TUFonyWZ4Tza5MzgDj6g2u5rfdGoRVYG7g');
@@ -458,7 +454,7 @@
             //The values "Copy" and #ec4609 below are what it will change back to
             setTimeout(function () {
                 $('.copy-btn').html('Copy')
-                $('.copy-btn').css('background-color', '#ec4609')
+                $('.copy-btn').css('background-color', 'transparent')
             }, 2000);
         });
     });
