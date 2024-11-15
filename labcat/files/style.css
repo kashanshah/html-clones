@@ -1716,7 +1716,7 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
-    gap: 30px
+    gap: 30px;
 }
 
 .topnav a {
