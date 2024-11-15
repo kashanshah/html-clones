@@ -1805,31 +1805,6 @@ body {
     }
 }
 
-.tiktok-embed {
-    text-align: center;
-}
-.tiktok-embed blockquote section {
-    display: none;
-}
-.tiktok-embed iframe {
-    width: auto !important;
-    margin: auto !important;
-}
-
-.tiktok-videos-sec {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-bottom: 80px;
-}
-
-@media screen and (max-width: 600px) {
-    .tiktok-videos-sec {
-        flex-direction: column;
-        gap: 20px;
-    }
-}
-
 .menu-column {
     display: flex;
     align-items: center;
@@ -1840,4 +1815,170 @@ body {
     .menu-column {
         display: block;
     }
+}
+
+.thumbnail-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.tiktok-videos-sec {
+    columns: 6 300px;
+    column-gap: 1rem;
+}
+.tiktok-videos-sec .video-frame {
+    width: 150px;
+    background: transparent;
+    color: white;
+    margin: 0 1rem 1rem 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-family: system-ui;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.tiktok-videos-sec .video-frame.video-frame-1 {
+    height: 390px;
+    line-height: 141px;
+}
+.tiktok-videos-sec .video-frame.video-frame-2 {
+    height: 421px;
+    line-height: 211px;
+}
+.tiktok-videos-sec .video-frame.video-frame-3 {
+    height: 197px;
+    line-height: 488px;
+}
+.tiktok-videos-sec .video-frame.video-frame-4 {
+    height: 210px;
+    line-height: 149px;
+}
+.tiktok-videos-sec .video-frame.video-frame-5 {
+    height: 710px;
+    line-height: 161px;
+}
+.tiktok-videos-sec .video-frame.video-frame-6 {
+    height: 310px;
+    line-height: 427px;
+}
+.tiktok-videos-sec .video-frame.video-frame-7 {
+    height: 275px;
+    line-height: 155px;
+}
+.tiktok-videos-sec .video-frame.video-frame-8 {
+    height: 220px;
+    line-height: 458px;
+}
+.tiktok-videos-sec .video-frame.video-frame-9 {
+    height: 232px;
+    line-height: 157px;
+}
+.tiktok-videos-sec .video-frame.video-frame-10 {
+    height: 223px;
+    line-height: 333px;
+}
+.tiktok-videos-sec .video-frame.video-frame-11 {
+    height: 230px;
+    line-height: 250px;
+}
+.tiktok-videos-sec .video-frame.video-frame-12 {
+    height: 203px;
+    line-height: 203px;
+}
+.tiktok-videos-sec .video-frame.video-frame-13 {
+    height: 275px;
+    line-height: 477px;
+}
+.tiktok-videos-sec .video-frame.video-frame-14 {
+    height: 550px;
+    line-height: 121px;
+}
+.tiktok-videos-sec .video-frame.video-frame-15 {
+    height: 240px;
+    line-height: 123px;
+}
+.tiktok-videos-sec .video-frame.video-frame-16 {
+    height: 252px;
+    line-height: 335px;
+}
+.tiktok-videos-sec .video-frame.video-frame-17 {
+    height: 259px;
+    line-height: 259px;
+}
+.tiktok-videos-sec .video-frame.video-frame-18 {
+    height: 418px;
+    line-height: 418px;
+}
+.tiktok-videos-sec .video-frame.video-frame-19 {
+    height: 369px;
+    line-height: 369px;
+}
+.tiktok-videos-sec .video-frame.video-frame-20 {
+    height: 290px;
+    line-height: 290px;
+}
+.tiktok-videos-sec .video-frame.video-frame-21 {
+    height: 194px;
+    line-height: 194px;
+}
+.tiktok-videos-sec .video-frame.video-frame-22 {
+    height: 104px;
+    line-height: 104px;
+}
+.tiktok-videos-sec .video-frame.video-frame-23 {
+    height: 300px;
+    line-height: 300px;
+}
+.tiktok-videos-sec .video-frame.video-frame-24 {
+    height: 202px;
+    line-height: 202px;
+}
+.tiktok-videos-sec .video-frame.video-frame-25 {
+    height: 213px;
+    line-height: 213px;
+}
+.tiktok-videos-sec .video-frame.video-frame-26 {
+    height: 371px;
+    line-height: 371px;
+}
+.tiktok-videos-sec .video-frame.video-frame-27 {
+    height: 396px;
+    line-height: 396px;
+}
+.tiktok-videos-sec .video-frame.video-frame-28 {
+    height: 373px;
+    line-height: 373px;
+}
+.tiktok-videos-sec .video-frame.video-frame-29 {
+    height: 357px;
+    line-height: 357px;
+}
+.tiktok-videos-sec .video-frame.video-frame-30 {
+    height: 428px;
+    line-height: 428px;
+}
+.tiktok-videos-sec .video-frame.video-frame-31 {
+    height: 128px;
+    line-height: 128px;
+}
+.tiktok-videos-sec .video-frame.video-frame-32 {
+    height: 330px;
+    line-height: 330px;
+}
+.tiktok-videos-sec .video-frame.video-frame-33 {
+    height: 476px;
+    line-height: 476px;
+}
+.tiktok-videos-sec .video-frame.video-frame-34 {
+    height: 248px;
+    line-height: 248px;
+}
+.tiktok-videos-sec .video-frame.video-frame-35 {
+    height: 282px;
+    line-height: 282px;
+}
+.tiktok-videos-sec .video-frame.video-frame-36 {
+    height: 385px;
+    line-height: 385px;
 }

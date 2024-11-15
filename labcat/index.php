@@ -13,6 +13,8 @@
     <link href="./files/style.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="./files/app.min.js"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <script type="text/javascript">!function (o, c) {
@@ -257,13 +259,14 @@
     <section class="bg-[#005BD1] border-b-black border-b-[7px] xl:border-b-[8px] 2xl:border-b-[10px]">
         <h1 class="text-white py-10 text-center tracking-wider text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl" data-aos="fade-up" data-aos-delay="200">cataclysms</h1>
         <div class="container mx-auto tiktok-videos-sec">
-            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@simonscat/video/7434648036145417505" data-video-id="7434648036145417505" > <section> <a target="_blank" title="@simonscat" href="https://www.tiktok.com/@simonscat?refer=embed">@simonscat</a> Our brand new film is out now on our @YouTube channel! Watch the Heist by visiting the link 🔗 in our profile. 😊 <a title="animation" target="_blank" href="https://www.tiktok.com/tag/animation?refer=embed">#animation</a> <a title="catlovers" target="_blank" href="https://www.tiktok.com/tag/catlovers?refer=embed">#catlovers</a> <a target="_blank" title="♬ original sound - Simon’s Cat" href="https://www.tiktok.com/music/original-sound-7434648067373009697?refer=embed">♬ original sound - Simon’s Cat</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
-
-            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@simonscat/video/7434972484593519904" data-video-id="7434972484593519904" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@simonscat" href="https://www.tiktok.com/@simonscat?refer=embed">@simonscat</a> Our New Simon&#39;s Cat Christmas Jumper is out! Shop by clicking the Link in our profile!  Soft and cosy, features Cat and Kitten all dolled up for the holidays...🎄☃️🌟 <a title="catlover" target="_blank" href="https://www.tiktok.com/tag/catlover?refer=embed">#catlover</a> <a title="christmasjumper" target="_blank" href="https://www.tiktok.com/tag/christmasjumper?refer=embed">#christmasjumper</a> <a target="_blank" title="♬ original sound  - Simon’s Cat" href="https://www.tiktok.com/music/original-sound-Simon’s-Cat-7434972597698890529?refer=embed">♬ original sound  - Simon’s Cat</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
-
-            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@simonscat/video/7434971434213969184" data-video-id="7434971434213969184" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@simonscat" href="https://www.tiktok.com/@simonscat?refer=embed">@simonscat</a> <p>Cats vs Closed Doors!</p> <a target="_blank" title="♬ original sound  - Simon’s Cat" href="https://www.tiktok.com/music/original-sound-Simon’s-Cat-7434971492083698464?refer=embed">♬ original sound  - Simon’s Cat</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
-
-            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@simonscat/video/7434648036145417505" data-video-id="7434648036145417505" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@simonscat" href="https://www.tiktok.com/@simonscat?refer=embed">@simonscat</a> Our brand new film is out now on our @YouTube channel! Watch the Heist by visiting the link 🔗 in our profile. 😊 <a title="animation" target="_blank" href="https://www.tiktok.com/tag/animation?refer=embed">#animation</a> <a title="catlovers" target="_blank" href="https://www.tiktok.com/tag/catlovers?refer=embed">#catlovers</a> <a target="_blank" title="♬ original sound - Simon’s Cat" href="https://www.tiktok.com/music/original-sound-7434648067373009697?refer=embed">♬ original sound - Simon’s Cat</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+            <?php for($i = 1; $i <= 17; $i++) :?>
+            <a data-fancybox="gallery" href="./media/tiktok/<?php echo $i; ?>.mp4" class="video-frame video-frame-<?php echo $i; ?>">
+                <video class="thumbnail-video" width="100%" height="100%" autoplay muted loop>
+                    <source src="./media/tiktok/<?php echo $i; ?>.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </a>
+            <?php endfor; ?>
         </div>
     </section>
 
