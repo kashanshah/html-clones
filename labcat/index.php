@@ -95,7 +95,7 @@
                 <div class="col-md-4">
                     <h1 class=" text-center text-md-start" data-aos="zoom-out" data-aos-delay="300">
                         <a href="./" class="fs">
-                            <img class="logo-img" src="./media/hero_left.png" alt="LABCAT" />
+                            <img class="logo-img" src="./media/logo.gif" alt="LABCAT" />
                         </a>
                     </h1>
                 </div>
@@ -103,7 +103,7 @@
                     <nav>
                         <ul class="topnav" id="myTopnav" data-aos="fade-down" data-aos-delay="300">
                             <li><a href="#about">ABOUT</a></li>
-                            <li><a href="#tokenomics">TOKENOMICS</a></li>
+                            <li><a href="#tokenomics">TIKTOK</a></li>
                             <li><a href="#buy">BUY</a></li>
                             <li>
                                 <a class="uppercase w-full mx-auto lg:mx-0 lg:mr-auto px-3 py-2 xl:px-5 xl:py-3 bg-white text-xl md:text-2xl text-black lg:text-3xl xl:text-5xl border-black border-[7px] xl:border-[10px] rounded-2xl md:rounded-3xl" href="https://t.me/LABCATs_World" target="_blank">
@@ -155,38 +155,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-blue jupiter-sec overflow-hidden">
-        <div class="container mx-auto ">
-            <img class="max-w-[500px] w-full object-contain jupiter-img relative z-20" src="./media/cat_eth.png" alt="" data-aos="fade-up" data-aos-delay="200">
-            <div class="p-4 md:p-6 bg-black border-black border-[10px] rounded-3xl max-w-[500px] xl:max-w-[550px] mb-10 lg:mb-10 mt-11">
-                <div class="tracking-wider md:text-2xl">
-                    <div id="integrated-terminal"></div>
-                    <div class="text-right">
-                        <img src="./files/powered-solana.svg" alt="" class="powered-by-img">
-                    </div>
-                    <script src='https://terminal.jup.ag/main-v2.js'></script>
-                    <script>
-                        window.Jupiter.init({
-                            displayMode: "integrated",
-                            integratedTargetId: "integrated-terminal",
-                            endpoint: "https://docs-demo.solana-mainnet.quiknode.pro",
-                            passThroughWallet: true,
-                            strictTokenList: false,
-                            formProps: {
-                                fixedInputMint: false,
-                                fixedOutputMint: true,
-                                swapMode: "ExactIn",
-                                initialInputMint: "So11111111111111111111111111111111111111112",
-                                initialOutputMint: "MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5"
-                            }
-
-                        });
-                    </script>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="bg-light-green py-1 md:py-2 xl:py-4">
+    <section class="bg-red py-1 md:py-2 xl:py-4">
         <section class="cs-carousel">
             <?php for($i = 0; $i < 1; $i++): ?>
                 <div class="cs-carousel--content tracking-widest lg:tracking-[11px] text-2xl md:text-5xl lg:text-6xl 2xl:text-7xl text-white">
@@ -239,7 +208,38 @@
             <?php endfor; ?>
         </section>
     </section>
-    <section class="bg-yellow overflow-hidden">
+    <section class="bg-blue jupiter-sec">
+        <div class="container mx-auto ">
+            <img class="max-w-[500px] w-full object-contain jupiter-img relative z-20" src="./media/cat_eth.png" alt="" data-aos="fade-up" data-aos-delay="200">
+            <div class="p-4 md:p-6 bg-black border-black border-[10px] rounded-3xl max-w-[500px] xl:max-w-[550px] mb-10 lg:mb-10 mt-11">
+                <div class="tracking-wider md:text-2xl">
+                    <div id="integrated-terminal"></div>
+                    <div class="text-right">
+                        <img src="./files/powered-solana.svg" alt="" class="powered-by-img">
+                    </div>
+                    <script src='https://terminal.jup.ag/main-v2.js'></script>
+                    <script>
+                        window.Jupiter.init({
+                            displayMode: "integrated",
+                            integratedTargetId: "integrated-terminal",
+                            endpoint: "https://docs-demo.solana-mainnet.quiknode.pro",
+                            passThroughWallet: true,
+                            strictTokenList: false,
+                            formProps: {
+                                fixedInputMint: false,
+                                fixedOutputMint: true,
+                                swapMode: "ExactIn",
+                                initialInputMint: "So11111111111111111111111111111111111111112",
+                                initialOutputMint: "MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5"
+                            }
+
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light-green overflow-hidden">
         <div class="container mx-auto px-6 pt-10 max-w-[1300px] w-full">
             <div class="w-full grid lg:grid-cols-2 items-center gap-8 mx-auto">
                 <div class="w-full grid justify-center gap-4 mx-auto lg:order-1" data-aos="fade-right" data-aos-delay="200">
@@ -255,7 +255,7 @@
     </section>
 
     <section class="bg-[#005BD1] border-b-black border-b-[7px] xl:border-b-[8px] 2xl:border-b-[10px]">
-        <h1 class="text-white py-10 text-center tracking-wider text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl" data-aos="fade-up" data-aos-delay="200">THE STORY BEHIND $LABCAT</h1>
+        <h1 class="text-white py-10 text-center tracking-wider text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl" data-aos="fade-up" data-aos-delay="200">cataclysms</h1>
         <div class="container mx-auto tiktok-videos-sec">
             <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@simonscat/video/7434648036145417505" data-video-id="7434648036145417505" > <section> <a target="_blank" title="@simonscat" href="https://www.tiktok.com/@simonscat?refer=embed">@simonscat</a> Our brand new film is out now on our @YouTube channel! Watch the Heist by visiting the link 🔗 in our profile. 😊 <a title="animation" target="_blank" href="https://www.tiktok.com/tag/animation?refer=embed">#animation</a> <a title="catlovers" target="_blank" href="https://www.tiktok.com/tag/catlovers?refer=embed">#catlovers</a> <a target="_blank" title="♬ original sound - Simon’s Cat" href="https://www.tiktok.com/music/original-sound-7434648067373009697?refer=embed">♬ original sound - Simon’s Cat</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
 
@@ -265,26 +265,9 @@
 
             <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@simonscat/video/7434648036145417505" data-video-id="7434648036145417505" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@simonscat" href="https://www.tiktok.com/@simonscat?refer=embed">@simonscat</a> Our brand new film is out now on our @YouTube channel! Watch the Heist by visiting the link 🔗 in our profile. 😊 <a title="animation" target="_blank" href="https://www.tiktok.com/tag/animation?refer=embed">#animation</a> <a title="catlovers" target="_blank" href="https://www.tiktok.com/tag/catlovers?refer=embed">#catlovers</a> <a target="_blank" title="♬ original sound - Simon’s Cat" href="https://www.tiktok.com/music/original-sound-7434648067373009697?refer=embed">♬ original sound - Simon’s Cat</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
         </div>
-        <div class="w-full grid lg:grid-cols-2 mx-auto">
-            <div class="relative" ><img class="w-full object-cover h-full"
-                                        src="./media/img1.png"
-                >
-                <div class="p-3 mx-6 md:mx-0 xl:p-5 bg-white border-black border-[10px] rounded-2xl md:max-w-[400px] lg:max-w-[350px] xl:max-w-[450px] absolute top-1/2 -translate-y-1/2 right-0"
-                ><h1 class="tracking-wider md:text-2xl 2xl:text-3xl">
-                        LABCAT, a
-                        fearless and overly dramatic cat with a thirst for greatness, comes from a long line of
-                        legendary heroes.</h1></div>
-            </div>
-            <div class="relative">
-                <img class="w-full object-cover" src="./media/img2.png">
-                <div class="p-3 mx-6 md:mx-0 xl:p-6 bg-white border-black border-[10px] rounded-2xl md:max-w-[400px] lg:max-w-[350px] xl:max-w-[450px] absolute top-1/2 -translate-y-1/2 right-0">
-                    <h1 class="tracking-wider md:text-2xl 2xl:text-3xl">Determined to make his mark, he sets off on a journey to become the greatest hero in the land.</h1>
-                </div>
-            </div>
-        </div>
     </section>
 
-    <section class="bg-[#005BD1] relative z-10 overflow-hidden">
+    <section class="bg-blue relative z-10 overflow-hidden">
         <h1 class="text-center pt-10 pb-6 text-3xl md:text-4xl xl:text-6xl tracking-wider text-white" data-aos="fade-up" data-aos-delay="200">how to buy?</h1>
         <div class="w-full grid lg:grid-cols-2 mx-auto gap-8 items-center">
             <img class="w-full object-cover md:mt-[-13%] lg:mt-[-22%] xl:mt-[-18.5%] order-2 md:order-1" src="./media/buy.png" data-aos="fade-right" data-aos-delay="200" />
