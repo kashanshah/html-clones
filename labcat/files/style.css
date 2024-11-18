@@ -1608,8 +1608,27 @@ body {
 }
 
 .jupiter-img {
-    margin-bottom: -10px;
     object-position: bottom;
+}
+
+.about-sec > .container {
+    margin-left: auto;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.about-sec .inner-grid {
+    gap: 80px;
+}
+
+@media screen and (max-width: 600px) {
+    .about-sec > .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-sec .inner-grid {
+        gap: 20px;
+    }
 }
 
 .hero-banner .row {
@@ -1831,7 +1850,6 @@ body {
     column-gap: 1rem;
 }
 .tiktok-videos-sec .video-frame {
-    width: 150px;
     background: transparent;
     color: white;
     margin: 0 1rem 1rem 0;
@@ -1842,12 +1860,18 @@ body {
     font-weight: 900;
     font-size: 2rem;
 }
+@media screen and (max-width: 600px) {
+    .tiktok-videos-sec .video-frame {
+        margin: 0 0 1rem 0;
+        width: 100%;
+    }
+}
 .tiktok-videos-sec .video-frame.video-frame-1 {
     height: 390px;
     line-height: 141px;
 }
 .tiktok-videos-sec .video-frame.video-frame-2 {
-    height: 421px;
+    height: 390px;
     line-height: 211px;
 }
 .tiktok-videos-sec .video-frame.video-frame-3 {
